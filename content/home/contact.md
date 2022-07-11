@@ -25,32 +25,21 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: test@example.org
-  phone: 888 888 88 88
+  email: stefan@cheng.es.osaka-u.ac.jp
+  phone: 
   address:
-    street: 450 Serra Mall
-    city: Stanford
-    region: CA
-    postcode: '94305'
-    country: United States
-    country_code: US
-  coordinates:
-    latitude: '37.4275'
-    longitude: '-122.1697'
-  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+    street: 1-3 Machikaneyama-cho
+    city: Toyonaka-shi
+    region: Osaka
+    postcode: '560-8531'
+    country: Japan
+    country_code: JP
+  coordinates: 
+    latitude: '34.804151180507205'
+    longitude: '135.4554138557025'
+  directions: Enter building and take the stairs to Floor 2. Walk stright to the end of the corridor.
   office_hours:
-    - 'Monday 10:00 to 13:00'
-    - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://calendly.com'
-  contact_links:
-    - icon: twitter
-      icon_pack: fab
-      name: DM Me
-      link: 'https://twitter.com/Twitter'
-    - icon: video
-      icon_pack: fas
-      name: Zoom Me
-      link: 'https://zoom.com'
+    - 'Monday-Friday 08:30 to 17:15'
 
 design:
   columns: '2'
