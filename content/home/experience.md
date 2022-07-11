@@ -44,11 +44,12 @@ experience:
     date_end: '2021-10-01'
     description: >-
         Conduced research on the thermodynamic solvation of biomolecules in solution using insilico methods
+        
         Teaching conducted:
 
-            * Stistical Thermodynamics and Molecular Simulations
+        * Stistical Thermodynamics and Molecular Simulations
 
-            * Python Programming for Chemists
+        * Python Programming for Chemists
         
         
         Supervisor: Mikael Lund
