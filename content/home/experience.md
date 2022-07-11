@@ -22,28 +22,30 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Postdoctoral Research Fellow
+    company: Osaka University
+    company_url: 'https://www.osaka-u.ac.jp/en'
+    company_logo: OU
+    location: Osaka, Japan
+    date_start: '2022-04-13'
     date_end: ''
-    description: |2-
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
+    description:>-
+    Conducted research on the usage of free energy calculation for rational modification of molecular matter
+    Supervisor: Nobuyuki Matubayasi
 
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
+  - title: PhD Student
+    company: Lund University
+    company_url: 'https://www.lunduniversity.lu.se/'
     company_logo: LU
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Lund, Sweden
+    date_start: '2017-08-01'
+    date_end: '2021-10-01'
+    description: |2-
+    Conduced research on the thermodynamic solvation of biomolecules in solution using insilico methods
+        Teaching conducted:
+        * Stistical Thermodynamics and Molecular Simulations
+        * Python Programming for Chemists
+    Supervisor: Mikael Lund
 
 design:
   columns: '2'
