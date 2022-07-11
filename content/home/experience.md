@@ -29,7 +29,7 @@ experience:
     location: Osaka, Japan
     date_start: '2022-04-13'
     date_end: ''
-    description:>-
+    description: |2-
     Conducted research on the usage of free energy calculation for rational modification of molecular matter
     Supervisor: Nobuyuki Matubayasi
 
