@@ -45,6 +45,7 @@ experience:
     description: >-
         Conduced research on the thermodynamic solvation of biomolecules in solution using insilico methods
         
+
         Teaching conducted:
 
         * Stistical Thermodynamics and Molecular Simulations
