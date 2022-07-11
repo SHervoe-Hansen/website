@@ -32,7 +32,7 @@ experience:
     description: >-
         Conducted research on the usage of free energy calculation for rational modification of molecular matter
 
-    Supervisor: Nobuyuki Matubayasi
+        Supervisor: Nobuyuki Matubayasi
 
   - title: PhD Student
     company: Lund University
@@ -43,12 +43,14 @@ experience:
     date_end: '2021-10-01'
     description: >-
         Conduced research on the thermodynamic solvation of biomolecules in solution using insilico methods
+        
         Teaching conducted:
 
         * Stistical Thermodynamics and Molecular Simulations
+
         * Python Programming for Chemists
 
-    Supervisor: Mikael Lund
+        Supervisor: Mikael Lund
 
 design:
   columns: '2'
