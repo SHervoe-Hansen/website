@@ -45,6 +45,9 @@ tags: [Molecular dynamics, Binding, Conformation, Salts, Open access]
 # Display this page in the Featured widget?
 featured: false
 
+# Add Almetric and Dimensions badges?
+add_badge: true
+
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
