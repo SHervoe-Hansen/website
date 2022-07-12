@@ -36,7 +36,7 @@ abstract: The contributions from anions and cations from salt are inseparable in
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [OpenMM, Molecular dynamics, ERmod, Solvation free energy, Open access]
+tags: [OpenMM, Molecular dynamics, ERmod, Solvation free energy, Salts, Open access]
 
 # Display this page in the Featured widget?
 featured: true
