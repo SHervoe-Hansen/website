@@ -6,20 +6,26 @@ title: 'Anion–cation contrast of small molecule solvation in salt solutions'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Jan Heyda
-  - Mikael Lund
-  - Nobuyuki Matubayasi
+  - Casper Højgaard
+  - Kristoffer Enøe Johansson
+  - Yong Wang
+  - Khadija Wahni
+  - David Young
+  - Joris Messens
+  - Kaare Teilum
+  - Kresten Lindorff-Larsen
+  - Jakob Rahr Winther
 
 # Author notes (optional)
-#author_notes:
-#  - 'Equal contribution'
-#  - 'Equal contribution'
+author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
 
-date: '2022-01-04'
-doi: '10.1039/D1CP04129K'
+date: '2021-02-02'
+doi: '10.1021/jacs.0c10789'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-07-11'
+publishDate: '2021-02-02'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -28,15 +34,15 @@ publishDate: '2022-07-11'
 publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Physical Chemistry Chemical Physics*
-publication_short: In *Phys. Chem. Chem. Phys*
+publication: In *Journal of the American Chemical Society*
+publication_short: In *J. Am. Chem. Soc.*
 
-abstract: The contributions from anions and cations from salt are inseparable in their perturbation of molecular systems by experimental and computational methods, rendering it difficult to dissect the effects exerted by the anions and cations individually. Here we investigate the solvation of a small molecule, caffeine, and its perturbation by monovalent salts from various parts of the Hofmeister series. Using molecular dynamics and the energy-representation theory of solvation, we estimate the solvation free energy of caffeine and decompose it into the contributions from anions, cations, and water. We also decompose the contributions arising from the solute–solvent and solute-ions interactions and that from excluded volume, enabling us to pin-point the mechanism of salt. Anions and cations revealed high contrast in their perturbation of caffeine solvation, with the cations *salting-in* caffeine via binding to the polar ketone groups, while the anions were found to be *salting-out* via perturbations of water. In agreement with previous findings, the perturbation by salt is mostly anion dependent, with the magnitude of the excluded-volume effect found to be the governing mechanism. The free-energy decomposition as conducted in the present work can be useful to understand ion-specific effects and the associated Hofmeister series.
+abstract: Electrostatic forces are important for protein folding and are favored targets of protein engineering. However, interactions between charged residues are difficult to study because of the complex network of interactions found in most proteins. We have designed a purposely simple system to investigate this problem by systematically introducing individual and pairs of charged and titratable residues in a protein otherwise free of such residues. We used constant pH molecular dynamics simulations, NMR spectroscopy, and thermodynamic double mutant cycles to probe the structure and energetics of the interaction between the charged residues. We found that the partial burial of surface charges contributes to a shift in pKa value, causing an aspartate to titrate in the neutral pH range. Additionally, the interaction between pairs of residues was found to be highly context dependent, with some pairs having no apparent preferential interaction, while other pairs would engage in coupled titration forming a highly stabilized salt bridge. We find good agreement between experiments and simulations and use the simulations to rationalize our observations and to provide a detailed mechanistic understanding of the electrostatic interactions. 
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [OpenMM, Molecular dynamics, ERmod, Solvation free energy, Open access]
+tags: [Molecular dynamics, Titration, pH, NMR spectroscopy, protein]
 
 # Display this page in the Featured widget?
 featured: true
@@ -58,7 +64,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Phys. Chem. Chem. Phys**](https://doi.org/10.1039/D1CP04129K)'
+  caption: 'Image credit: [**J. Am. Chem. Soc.**](https://doi.org/10.1021/jacs.0c10789)'
   focal_point: ''
   preview_only: false
 
