@@ -26,7 +26,7 @@ interests:
 education:
   courses:
     - course: PhD in Theoretical Chemistry
-      institution: Stanford University
+      institution: Lund University
       year: 2021
     - course: MSc in Protein Chemistry
       institution: University of Copenhagen
