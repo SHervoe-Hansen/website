@@ -41,6 +41,9 @@ tags: [OpenMM, Molecular dynamics, ERmod, Solvation free energy, Salts, Open acc
 # Display this page in the Featured widget?
 featured: true
 
+# Add Almetric and Dimensions badges?
+add_badge: true
+
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link

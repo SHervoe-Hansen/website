@@ -47,6 +47,9 @@ tags: [Molecular dynamics, Titration, pH, NMR spectroscopy, Protein]
 # Display this page in the Featured widget?
 featured: true
 
+# Add Almetric and Dimensions badges?
+add_badge: true
+
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link

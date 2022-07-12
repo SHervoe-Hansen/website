@@ -46,6 +46,9 @@ tags: [Molecular dynamics, NMR spectroscopy, Salts, Aggregation]
 # Display this page in the Featured widget?
 featured: false
 
+# Add Almetric and Dimensions badges?
+add_badge: true
+
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
