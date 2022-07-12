@@ -68,6 +68,6 @@ highlight_name: true
 ---
 Stefan Hervø-Hansen is a JSPS postdoctoral researcher at Osaka University in the Molecular-Aggregate Chemical Engineering group. His research interests include molecular simulations, free-energy calculation methods, and rational macromolecular design. During Stefan's MSc and PhD his research mainly focused on the importance of pH and co-solvent effects on the perturbation of molecular equilibria in a high variety of different chemical systems.
 
-Having been awarded the JSPS fellowship for his proposal on the topic "Protein Solubility and Aggregation in Solution", Stefan now focuses on providing an atomistic description of solvation of macromolecules in solution. This step is one in many towards the ultimate goal for the "Smart and Rational Design of Molecular Matter"-group.
+Having been awarded the JSPS fellowship for his proposal on the topic "Protein Solubility and Aggregation in Solution", Stefan now focuses on providing an atomistic description of solvation of macromolecules in solution. This step is one in many towards the ultimate goal for: "Combining Machine Learning and Physics-based Simulations for Smart Design of Materials"
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
