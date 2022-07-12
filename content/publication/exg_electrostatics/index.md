@@ -1,5 +1,5 @@
 ---
-title: 'Anion–cation contrast of small molecule solvation in salt solutions'
+title: 'Charge Interactions in a Highly Charge-Depleted Protein'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -42,7 +42,7 @@ abstract: Electrostatic forces are important for protein folding and are favored
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: [Molecular dynamics, Titration, pH, NMR spectroscopy, protein]
+tags: [Molecular dynamics, Titration, pH, NMR spectroscopy, Protein]
 
 # Display this page in the Featured widget?
 featured: true
