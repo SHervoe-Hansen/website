@@ -40,7 +40,7 @@ categories:
 ---
 
 ## The OpenMM Force Field Format
-
+OpenMM uses the Extensible Markup Language (XML) format to store force field parameters. One of the primary advangerous according to me is this offered easy to read and edit 
 
 
 
