@@ -44,10 +44,10 @@ categories:
 OpenMM uses the Extensible Markup Language (XML) format to store force field parameters. One of the primary advantages is this offers an easy-to-read and edit force field format. As with all of OpenMM, the construction of force fields files is documented well in the [OpenMM User Guide](http://docs.openmm.org/latest/userguide/), however having myself now tried to write force fields for simple molecules like thiocyanate anion and polyethylene glycol of arbitrary length, I have to come to realize there are some tips and tricks to aid in the construction and validation of the force field.
 
 ## Include all Fourier terms within a single PeriodicTorsionForce
-A dihedral angle is an angle between two intersecting planes. Within chemistry, it is the angle between two sets of three atoms having two atoms in common. Thus this energy is supposed to approximate the effect of bond order (like the restricted rotation around a double bond) and capture steric and electronic effects. A common way to express the difference in energy upon rotation of a dihedral angle is via a Fourier series. We can write the dihedral energy, $E(\omega)$ as
-$$
+A dihedral angle is an angle between two intersecting planes. Within chemistry, it is the angle between two sets of three atoms having two atoms in common. Thus this energy is supposed to approximate the effect of bond order (like the restricted rotation around a double bond) and capture steric and electronic effects. A common way to express the difference in energy upon rotation of a dihedral angle is via a Fourier series. We can write the dihedral energy, {{< math >}}$E(\omega)${{< /math >}} as
+{{< math >}}$$
 E(\omega) = \sum_{n} \left(1+\cos\left(n \omega - \omega_0\right)\right).
-$$
+$${{< /math >}
 Here $\omega$ is the dihedral angle formed by the four particles in question, $\omega_0$ is the phase offset, $n$ is the periodicity, and $k$ is the force constant. Note in the equation that the Fourier series is a _sum_ of terms, and this way of thinking may help a lot when writing the dihedral energy terms in the OpenMM force field files.
 
 In OpenMM, the tag that controls the addition of dihedral energy terms is _PeriodicTorsionForce_ as described in the [User Guide](http://docs.openmm.org/latest/userguide/application/05_creating_ffs.html#periodictorsionforce). However, one thing that was not clear to me was the rules allowed when writing the dihedral angle energy which had more than one term. In specific, my first attempt when creating a PEG force field was
