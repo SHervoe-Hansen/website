@@ -12,7 +12,7 @@ projects: []
 date: '2020-07-12'
 
 # Date updated
-lastmod: '2022-07-12'
+lastmod: '2022-07-15'
 
 # Is this an unpublished draft?
 draft: false
@@ -94,6 +94,7 @@ While this is a super easy way to include nonbonded exceptions, there is one maj
 ## Converting AMBER or Gromacs Files with Manual Tweaking Can Go a Long Way
 If one does not have to start from scratch but already has a force field for some molecular species in either an AMBER or Gromacs format, it is possible to convert it to XML format. One can use the [ParmEd](https://github.com/ParmEd/ParmEd) python package, which provides easy solutions for converting between various force field formats. Let us say we have an Amber topology and a PDB file which have, for example, been prepared using Ambertools's _tleap_ one may convert the topology into OpenMM's force field format using the following code
 ```python
+import parmed as pmd
 struc = pmd.load_file('Topology.top', xyz='Structure.pdb')
 amber_pset = pmd.amber.parameters.ParameterSet.from_structure(struc)
 omm_pset = pmd.openmm.parameters.OpenMMParameterSet.from_parameterset(amber_pset)
