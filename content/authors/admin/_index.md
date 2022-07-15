@@ -14,7 +14,7 @@ organizations:
     url: http://www.cheng.es.osaka-u.ac.jp/matubayasi/english/index.html
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include molecular simulation methods, free energy calculations, and rational macromolecular design.
 
 # Interests to show in About widget
 interests:
