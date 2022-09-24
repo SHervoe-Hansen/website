@@ -22,11 +22,11 @@ featured: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
-#image:
-#  caption: 'Image credit: [**Reedsy**](https://reedsy.com)'
-#  focal_point: ''
-#  placement: 2
-#  preview_only: false
+image:
+  caption: 'Image credit: [**M. Heyden, Disassembling solvation free energies into local contributions—Toward a microscopic understanding of solvation processes. WIREs Comput Mol Sci 9 (2018).**](doi.org/10.1002/wcms.1390)'
+  focal_point: ''
+  placement: 2
+  preview_only: false
 
 authors:
   - admin
@@ -51,10 +51,10 @@ However, before we begin, I like to state this text is dedicated to Kawanishi-Mi
 
 ## Proteins: A Polymer Consisting of 21 Different Amino Acid Monomers with Different Properties
 Proteins are large biomolecules that are composed of amino acids joined together.
-While all the amino acids share the property of possessing an amino group and a carboxylic acid group, the 21 most common proteinogenic amino acids are unique due to their side chain which is attached to the α-carbon.
+While all the amino acids share the property of possessing an amino group and a carboxylic acid group, the 21 most common [proteinogenic amino acids](https://en.wikipedia.org/wiki/Proteinogenic_amino_acid) are unique due to their side chain which is attached to the α-carbon.
 Because the side chain mainly determines the properties of the amino acids, the amino acids can be categorized based on various properties.
 The most common properties for categorization include polarity, hydrophobicity, charge, aromatic/aliphatic carbon skeleton, and volume occupation.
-In the creation of proteins, the individual amino acids are joined via a peptide bond, a covalent bond.
+In the creation of proteins, the individual amino acids are joined via a [peptide bond](https://en.wikipedia.org/wiki/Peptide_bond), a covalent bond.
 Due to the peptide bond being equivalent to the amide group, the atoms participating in the bond are all found in the same plane due to the partial double-bond character of the peptide bond.
 
 ## Stabilizing Interactions in Proteins
@@ -65,8 +65,10 @@ Nonlocal interactions in contrast are interactions occurring between amino acid 
 Note these terms do not comment on the residues' separation in space, but on their separation in the amino acid sequence.
 Whether an interaction between two amino acid residues is long-ranged or short-ranged is mainly depending on the kind of interaction occurring between the two residues. Thus in the following, we will shortly review the interactions that contribute to stabilizing the native fold of proteins.
 
+{{< figure src="Interactions.jpg" caption="Visualization of some of the interactions that stablize the native state of proteins: (a) Electrostatic interactions, (b) hydrogen bonding, (c) disulfide linkages, and (d) van der Waals interactions." numbered="true" >}}
+
 ### Hydrophobic Interactions: Oil-Water Separation
-The hydrophobic effect is perhaps best recognized from the phase separation of water and oil, which is traditionally attributed to the unfavourability of mixing polar and non-polar molecules.
+The [hydrophobic effect](https://en.wikipedia.org/wiki/Hydrophobic_effect) is perhaps best recognized from the phase separation of water and oil, which is traditionally attributed to the unfavourability of mixing polar and non-polar molecules.
 Even though the hydrophobic effect is a complicated phenomenon and has for a long time been an active topic of research, it is now evident that the hydrophobic effect is a consequence of water-water hydrogen bonding and their perturbation by non-polar solutes.
 Put simply and slightly oversimplified, water hydrogen bonding is so strong that water would rather interact with other water molecules than solvating the non-polar solute.
 This implies that the non-polar solute molecules will position themselves such that it minimizes their exposure to water, by for example the formation of oligomers or for elongated solutes to collapse upon themselves, thus allowing water to maximize water-water interactions.
@@ -83,13 +85,13 @@ Partial charges are, however, fictitious since they can not be measured by exper
 
 While partial charge describes the charge associated with the individual atoms, we use the word "ion" to describe the total none-zero formal charge of molecules and atoms. In the case of proteins, we talk about the charged/ionic amino acid residues which possess the ability to carry the formal charge of either +1 (histidine, arginine, lysine) or -1 (aspartate, glutamate, cysteine, selenocysteine, tyrosine). The charge of these amino acid residues is gained from the gain and removal of protons with the behavior governed by classic acid-base chemistry.
 
-Electrostatic interactions between point charges are described by the Coulomb law, which states the electrostatic energy between two point charges decays with $1/r$, where $r$ is the separation between the two charges. Due to this long-ranged force, proteins are commonly found to engage in a highly complicated network for electrostatic interactions throughout the protein which can stabilize the folded state.
+Electrostatic interactions between point charges are described by the [Coulomb law](https://en.wikipedia.org/wiki/Coulomb%27s_law), which states the electrostatic energy between two point charges decays with $1/r$, where $r$ is the separation between the two charges. Due to this long-ranged force, proteins are commonly found to engage in a highly complicated network for electrostatic interactions throughout the protein which can stabilize the folded state.
 
 ### Hydrogen Bonding & Salt Bridges: Strong Polar Contacts
-Hydrogen bonding is a combination of multiple factors which together form a highly strong intermolecular bond. In specific there are two contributions in the form of electrostatic interactions and orbital overlap (bond covalency). A hydrogen bond occcurs when a hydrogen-bonded donator group, such as an amide, -N-H, shares its hydrogen with an acceptor group, such as a carbonyl oxygen, O=C-, thus leading to the hydrogen bond having the characteristic form D-H···:A, where D is the donor, A is the acceptor possessing an electron lone pair and ··· is the though space interaction between the donor and accepted mediated by the hydrogen, H.
+[Hydrogen bonding](https://en.wikipedia.org/wiki/Hydrogen_bond) is a combination of multiple factors which together form a highly strong intermolecular bond. In specific there are two contributions in the form of electrostatic interactions and orbital overlap (bond covalency). A hydrogen bond occcurs when a hydrogen-bonded donator group, such as an amide, -N-H, shares its hydrogen with an acceptor group, such as a carbonyl oxygen, O=C-, thus leading to the hydrogen bond having the characteristic form D-H···:A, where D is the donor, A is the acceptor possessing an electron lone pair and ··· is the though-space interaction between the donor and accepted mediated by the hydrogen, H.
 
 In folded proteins, a vast amount of hydrogen bonds are found, mainly among the backbone carbonyl groups and amide groups.
-The hydrogen bonds between these groups is the main stablizing force found in α-helices and β-sheets.
+The hydrogen bonds between these groups is the main stablizing force found in α-helices and β-sheets, making up the [secondary structure](https://en.wikipedia.org/wiki/Protein_secondary_structure) of proteins.
 
 Due to hydrogen bonds having part electrostatic character, the "hydrogen bond strength" depends on the environment surronding it.
 While the dielectric constant in water is around 80, the dielectric constant in the protein interor is estimate to be 2-12 thus much more oil-like. 
@@ -100,15 +102,15 @@ A charged acceptor in proteins could for example be found in the carboxylate gro
 This interaction is even stronger than a hydrogen bond due to added electrostatic strength due to the charges, but is also pH dependent.
 
 ### van der Waals Interactions: Tight Packing Using Nonpolar Contacts
-van der Waals interactions is an expression which covers multiple intermolecular forces including the attractive or repulsive electrostatic interactions originating from permanent multipoles (Keesom interactions), the attractive electrostatic interactions between instantaneously formed multiples (dispersion interactions or London interactions), the attractive interactions between permanent multipoles and induced multiples (induction interactions), and finally the repulsive interactions resulting from the Pauli exclusion princple which prohibit two atoms from occuring the same space simultaneously.
+[van der Waals interactions](https://en.wikipedia.org/wiki/Van_der_Waals_force) is an expression which covers multiple intermolecular forces including the attractive or repulsive electrostatic interactions originating from permanent multipoles (Keesom interactions), the attractive electrostatic interactions between instantaneously formed multiples (dispersion interactions or London interactions), the attractive interactions between permanent multipoles and induced multiples (induction interactions), and finally the repulsive interactions resulting from the Pauli exclusion princple which prohibit two atoms from occuring the same space simultaneously.
 While the previous is fairly complicated, we can simplify and say van der Waals interactions constitute short ranged attaction and even shorter ranged repulsion.
 Van der Waals interactions are responsible for the tight packing of proteins with a fraction of space filled inside a protein being around 74% being the same value as the most efficient packing of identical spheres. However, proteins are not perfectly packed, as we do observe internal protein dynamics. Instead proteins obtain such a high packing fraction due to the difference sizes and shapes the amino acid side chains.
 
 ## The Statistics of Protein Folding - Why do Proteins Fold?
-From the previous discussion of the forces should not be clear that the hetrogeneity of the amino acids yields the posibility for the protein to interact strongly with itself allowing and the sequence of amino acids (the primary structure) is of great importance in determining the structure formed by proteins.
+From the previous discussion of the forces should not be clear that the hetrogeneity of the amino acids yields the posibility for the protein to interact strongly with itself allowing and the sequence of amino acids ([the primary structure](https://en.wikipedia.org/wiki/Protein_primary_structure)) is of great importance in determining the structure formed by proteins.
 However, there are many ways a protein can interact with it self, so why does proteins tend to adapt a specific three-dimensional structure? To answer this question we will use a combination of statistics, which deals with the probability of events occuring, and thermodynamics, which deals with flow of heat and energy and spontanity of processess.
 This combined decipline is called [statistical thermodynamics](https://en.wikipedia.org/wiki/Statistical_mechanics) and is the fundation for my research.
-Using statistical thermodynamics we will now demonstrate why proteins fold and unfold under various conditions, however lets start by looking at how probability and thermodynamics connects:
+Using statistical thermodynamics we will now demonstrate why proteins fold and unfold under various conditions, however lets start by looking at how probability and thermodynamics connects.
 
 ### Probability and Thermodynamics: Statistical Thermodynamics
 Probability calculations in their most simple form is something we all encounter at some point in our life, however statistical thermodynamics complicates it slightly by the introduction of the words _microstate_ and _partition function_ however the words can be very explained by comparing to something tangible: The probabily of obtain specific values when rolling a dice as illustrated in the image below.
@@ -120,8 +122,8 @@ The word _partition function_, donated $Q$, can best be explained using the Dani
 Using these words it should then obvious that the probability of a microstate, observing a specific number from a die, is given as the ratio of weight of observing the specific microstate, being equal to 1, and the partition function, which is the total number of possible outcome.
 From this example it is obvious that all microstates possess the same probability equal to 1/6.
 
-However, Ludwig Boltzmann the founder of statistical thermodynamics, discovered that microstates of different energy does not possess equal probability.
-Within our dice example this would for example be the case if one uses a dice which is unequal in mass on all sides, such that the potential energy due to gravity is different for the various numbers shown by the dice. Ludwig Boltzmann discovered that the partition in such case takes the form:
+However, [Ludwig Boltzmann](https://en.wikipedia.org/wiki/Ludwig_Boltzmann), the founder of statistical thermodynamics, discovered that microstates of different energy does not possess equal probability.
+Within our dice example this would for example be the case if one uses a dice which is unequal in mass on all sides (loaded dice), such that the potential energy due to gravity is different for the various numbers shown by the dice. Ludwig Boltzmann discovered that the partition in such case takes the form:
 $$
 Q = \sum_{\mathrm{microstates}} e^{\frac{-E}{RT}} 
 $$
@@ -129,13 +131,14 @@ where the sum is conducted over the number of microstates, $E$ is the energy of 
 $$
 P_{i} = \frac{e^{\frac{-E}{RT}}}{Q}
 $$
+Returning to the loaded loaded dice example, using the potential energy associated with the different numbers we can write a partition function for the load dice and calculate the associated probabily of the individual microstates illustrated in the figure below.
 
 {{< figure src="Dice_Partition_function_cheat.png" caption="Statistical thermodynamics of a loaded dice" numbered="true" >}}
 
-WRITE A LITTLE ABOUT LAST IMAGE AND CHECK THAT EQUATIONS ARE THE SAME
+We find the dice showing the number 5, which is having the lead piece in the buttom of the dice, is having the highest probabily of all the microstates, as it would also be expected by rational thinking.
 
 ### Lattice Statistics of Proteins: The HP Model
-Having covered some of the fundamentals of statistical thermodynamics, we are now ready to address protein folding. To do so we will use the so-called "hydrophobic-polar (HP) protein folding model" which reduces the number of amino acids from 21 to 2 with the two amino acids only being different from each other by one being hydrophobic (H) incapable of intermolecular interactions and the other being polar (P) having the ability to do hydrogen bonding with other adjcent residues.
+Having covered some of the fundamentals of statistical thermodynamics, we are now ready to address protein folding. To do so we will use the so-called "[hydrophobic-polar (HP) protein folding model](https://en.wikipedia.org/wiki/Hydrophobic-polar_protein_folding_model)" which reduces the number of amino acids from 21 to 2 with the two amino acids only being different from each other by one being hydrophobic (H) incapable of intermolecular interactions and the other being polar (P) having the ability to do hydrogen bonding with other adjcent residues.
 Adapting to a 2-dimensional latice and using the sequence "HPPHPH" the microstates have been visualized below
 
 
