@@ -1,5 +1,5 @@
 ---
-title: Protein Solvation Thermodynamics: The Unfolding Equilibrium (ENGLISH VERSION)
+title: "Protein Solvation Thermodynamics: The Unfolding Equilibrium (ENGLISH VERSION)"
 subtitle: An introduction to the perturbation of the structural stability of proteins by physicochemical means. For a Japanese version [click here]().
 
 # Summary for listings and search engines
