@@ -9,10 +9,10 @@ summary: An introduction to the perturbation of the structural stability of prot
 projects: []
 
 # Date published
-date: '2020-07-12'
+date: '2022-10-01'
 
 # Date updated
-lastmod: '2022-07-15'
+lastmod: '2022-10-01'
 
 # Is this an unpublished draft?
 draft: true
@@ -135,7 +135,7 @@ Returning to the loaded loaded dice example, using the potential energy associat
 
 {{< figure src="Dice_Partition_function_cheat.png" caption="Statistical thermodynamics of a loaded dice" numbered="true" >}}
 
-We find the dice showing the number 5, which is having the lead piece in the buttom of the dice, is having the highest probabily of all the microstates, as it would also be expected by rational thinking.
+We find the dice showing the number 5, which is having the lead piece in the buttom of the dice, is having the highest probabily of all the microstates, as it would also be expected by rational thinking. As an excersis, you can show relationship between probabily and energy also works for the fair dice, in which all microstates (numbers) have the same energy due to the mass of the dice being uniform.
 
 ### Lattice Statistics of Proteins: The HP Model
 Having covered some of the fundamentals of statistical thermodynamics, we are now ready to address protein folding. To do so we will use the so-called "[hydrophobic-polar (HP) protein folding model](https://en.wikipedia.org/wiki/Hydrophobic-polar_protein_folding_model)" which reduces the number of amino acids from 21 to 2 with the two amino acids only being different from each other by one being hydrophobic (H) incapable of intermolecular interactions and the other being polar (P) having the ability to do hydrogen bonding with other adjcent residues.
