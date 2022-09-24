@@ -15,7 +15,7 @@ date: '2020-07-12'
 lastmod: '2022-07-15'
 
 # Is this an unpublished draft?
-draft: false
+draft: true 
 
 # Show this page in the Featured widget?
 featured: true
@@ -113,7 +113,7 @@ Using statistical thermodynamics we will now demonstrate why proteins fold and u
 ### Probability and Thermodynamics: Statistical Thermodynamics
 Probability calculations in their most simple form is something we all encounter at some point in our life, however statistical thermodynamics complicates it slightly by the introduction of the words _microstate_ and _partition function_ however the words can be very explained by comparing to something tangible: The probabily of obtain specific values when rolling a dice as illustrated in the image below.
 
-INSERT IMAGE
+![screen reader text](Dice_Partition_function.png "Statistical thermodynamics of a Dice")
 
 The word _microstate_ within the anology of dices referes one of the possible outcome when rolling the dice. As of such a 6-sided dice has 6 microstates, whereas a 20-sided dice has 20 microstates.
 The word _partition function_, donated $Q$, can best be explained using the Danish translation "tilstandssummen" which literally translates to "the sum of states". Within our dice analogy it thus referes to the total number of states the dice contain.
@@ -123,12 +123,15 @@ From this example it is obvious that all microstates possess the same probabilit
 However, Ludwig Boltzmann the founder of statistical thermodynamics, discovered that microstates of different energy does not possess equal probability.
 Within our dice example this would for example be the case if one uses a dice which is unequal in mass on all sides, such that the potential energy due to gravity is different for the various numbers shown by the dice. Ludwig Boltzmann discovered that the partition in such case takes the form:
 $$
-Q = \sum_{\mathrm{microstates}} e^{\frac{-e}{RT}} 
+Q = \sum_{\mathrm{microstates}} e^{\frac{-E}{RT}} 
 $$
-where the sum is conducted over the number of microstates, $R$ is the gas constant, and $T$ is the temperature. The probability of a given microstate is then like before given as the ratio of the weight between the microstate and the partition function.
+where the sum is conducted over the number of microstates, $E$ is the energy of the given microstate, $R$ is the gas constant, and $T$ is the temperature. The probability of a given microstate $i$ with energy $E$ is then like before given as the ratio of the weight between the microstate and the partition function.
 $$
-P_{i} = \frac{e^{\frac{-e}{RT}}}{Q}
+P_{i} = \frac{e^{\frac{-E}{RT}}}{Q}
 $$
+
+
+WRITE A LITTLE ABOUT LAST IMAGE AND CHECK THAT EQUATIONS ARE THE SAME
 
 ### Lattice Statistics of Proteins: The HP Model
 Having covered some of the fundamentals of statistical thermodynamics, we are now ready to address protein folding. To do so we will use the so-called "hydrophobic-polar (HP) protein folding model" which reduces the number of amino acids from 21 to 2 with the two amino acids only being different from each other by one being hydrophobic (H) incapable of intermolecular interactions and the other being polar (P) having the ability to do hydrogen bonding with other adjcent residues.
@@ -142,16 +145,17 @@ $$
 
 
 
-## Outlook and My Research: Cellular Conditions ≠ Pure Water
-In the previous we have seen that proteins' tendency to fold and unfold depends on temperature. However, this is only the tip of the iceberg.
-There are many more effects which affects the proteins' structual stability, including pH, pressure, crowding, co-solvents, and other proteins.
-Additionally proteins possess many equlibria which are important for correct biological functioning, with protein folding/unfolding being just one of them.
+## Outlook and My Research: Cellular Conditions Does Not Equal Pure Water
+In the previous, we have seen that proteins' tendency to fold and unfold depends on temperature. However, this is only the tip of the iceberg.
+There are many more effects that affect the proteins' structural stability, including pH, pressure, crowding, co-solvents, and other proteins.
+Additionally, proteins possess many equilibria which are important for correct biological functioning, with protein folding/unfolding being just one of them.
 
-Biologically relevent environments which possess high variabilty in terms of the previously mentioned physiocochemical properties are not hard to find, with perhaps the most obvious example being the inside of a cell, the cytoplasm. To get a feeling for the highly complex and crowered enviroinment inside a cell, I can highly recommend watching this video by the RIKEN research institute in Japan.
+Biologically relevant environments which possess high variability in terms of the previously mentioned physicochemical properties are not hard to find, with perhaps the most obvious example being the inside of a cell, the cytoplasm.
+To get a feeling of the highly complex and crowded environment inside a cell, I can highly recommend watching this video by the RIKEN research institute in Japan.
 
 {{< youtube 5JcFgj2gHx8 >}}
 
-Like mentioned in the video, my research seeks to understand how proteins behavours under various influences.
-Using this knowledge, we may one day understand how to engineer proteins to work under arbitary conditions and even optimize them to work in a high complex environment like the inside of cells.
-Using molecular simulations conducted on supercomputers I hope that my research will contribute to not only not only addvance the bacis science of protein chemistry, but also that we may put the knowledge use to design drugs in the fight against diseases and the design molecules for industrial purposes to the benefit of humankind.
+As mentioned in the video, my research seeks to understand how proteins behave under various influences.
+Using this knowledge, we may one day understand how to engineer proteins to work under arbitrary conditions and even optimize them to work in a highly complex environment like the inside of cells.
+Using molecular simulations conducted on supercomputers I hope that my research will contribute to not only advancing the basic science of protein chemistry but also that we may put the knowledge to use to design drugs in the fight against diseases and design molecules for industrial purposes to the benefit of humankind.
 
