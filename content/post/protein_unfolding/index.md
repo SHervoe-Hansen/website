@@ -113,7 +113,7 @@ Using statistical thermodynamics we will now demonstrate why proteins fold and u
 ### Probability and Thermodynamics: Statistical Thermodynamics
 Probability calculations in their most simple form is something we all encounter at some point in our life, however statistical thermodynamics complicates it slightly by the introduction of the words _microstate_ and _partition function_ however the words can be very explained by comparing to something tangible: The probabily of obtain specific values when rolling a dice as illustrated in the image below.
 
-![screen reader text](Dice_Partition_function.png "Statistical thermodynamics of a Dice")
+{{< figure src="Dice_Partition_function.png" caption="Statistical thermodynamics of a dice" numbered="true" >}}
 
 The word _microstate_ within the anology of dices referes one of the possible outcome when rolling the dice. As of such a 6-sided dice has 6 microstates, whereas a 20-sided dice has 20 microstates.
 The word _partition function_, donated $Q$, can best be explained using the Danish translation "tilstandssummen" which literally translates to "the sum of states". Within our dice analogy it thus referes to the total number of states the dice contain.
@@ -130,6 +130,7 @@ $$
 P_{i} = \frac{e^{\frac{-E}{RT}}}{Q}
 $$
 
+{{< figure src="Dice_Partition_function_cheat.png" caption="Statistical thermodynamics of a loaded dice" numbered="true" >}}
 
 WRITE A LITTLE ABOUT LAST IMAGE AND CHECK THAT EQUATIONS ARE THE SAME
 
@@ -155,7 +156,7 @@ To get a feeling of the highly complex and crowded environment inside a cell, I 
 
 {{< youtube 5JcFgj2gHx8 >}}
 
-As mentioned in the video, my research seeks to understand how proteins behave under various influences.
+Like one of the goals mentioned in the video, my research seeks to understand how proteins behave under various influences.
 Using this knowledge, we may one day understand how to engineer proteins to work under arbitrary conditions and even optimize them to work in a highly complex environment like the inside of cells.
 Using molecular simulations conducted on supercomputers I hope that my research will contribute to not only advancing the basic science of protein chemistry but also that we may put the knowledge to use to design drugs in the fight against diseases and design molecules for industrial purposes to the benefit of humankind.
 
