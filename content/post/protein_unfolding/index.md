@@ -15,7 +15,7 @@ date: '2020-07-12'
 lastmod: '2022-07-15'
 
 # Is this an unpublished draft?
-draft: true
+draft: false
 
 # Show this page in the Featured widget?
 featured: true
