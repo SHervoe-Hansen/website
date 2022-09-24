@@ -121,7 +121,7 @@ Using these words it should then obvious that the probability of a microstate, o
 From this example it is obvious that all microstates possess the same probability equal to 1/6.
 
 However, Ludwig Boltzmann the founder of statistical thermodynamics, discovered that microstates of different energy does not possess equal probability.
-Within our dice example this would for example be the case if one uses a dice which is unequal in weight on all sides, such that the potential energy due to gravity is different for the various numbers shown by the dice. Ludwig Boltzmann discovered that the partition in such case takes the form:
+Within our dice example this would for example be the case if one uses a dice which is unequal in mass on all sides, such that the potential energy due to gravity is different for the various numbers shown by the dice. Ludwig Boltzmann discovered that the partition in such case takes the form:
 $$
 Q = \sum_{\mathrm{microstates}} e^{\frac{-e}{RT}} 
 $$
@@ -143,9 +143,15 @@ $$
 
 
 ## Outlook and My Research: Cellular Conditions ≠ Pure Water
-In the previous we have seen that proteins tendency to fold and unfold depends on temperature. However, this is only the tip of the iceberg.
-There are many more effects which affects the protein structual stability, including pH, pressure, crowding, co-solvents, and other proteins.
+In the previous we have seen that proteins' tendency to fold and unfold depends on temperature. However, this is only the tip of the iceberg.
+There are many more effects which affects the proteins' structual stability, including pH, pressure, crowding, co-solvents, and other proteins.
 Additionally proteins possess many equlibria which are important for correct biological functioning, with protein folding/unfolding being just one of them.
-My research seeks to understand how proteins behavours under these various influences. Using this knowledge, we may one day understand how to engineer proteins to work under arbitary conditions and even optimize them to work in a high complex environment like cells.
 
-INSERT YOUTUBE VIDEO HERE
+Biologically relevent environments which possess high variabilty in terms of the previously mentioned physiocochemical properties are not hard to find, with perhaps the most obvious example being the inside of a cell, the cytoplasm. To get a feeling for the highly complex and crowered enviroinment inside a cell, I can highly recommend watching this video by the RIKEN research institute in Japan.
+
+{{< youtube 5JcFgj2gHx8 >}}
+
+Like mentioned in the video, my research seeks to understand how proteins behavours under various influences.
+Using this knowledge, we may one day understand how to engineer proteins to work under arbitary conditions and even optimize them to work in a high complex environment like the inside of cells.
+Using molecular simulations conducted on supercomputers I hope that my research will contribute to not only not only addvance the bacis science of protein chemistry, but also that we may put the knowledge use to design drugs in the fight against diseases and the design molecules for industrial purposes to the benefit of humankind.
+
