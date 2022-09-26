@@ -167,7 +167,7 @@ Since the probability depends on the temperature $T$, the probability of the fol
 As we can see the protein goes from high to lower probability in finding the folded, native state as we increase the temperature with the unfolded state instead becoming predominant.
 You can now explain why the egg proteins, ovalbumen, and ovotransferrin, found in egg-white change from a transparent, water-soluble substance to a white, water-insoluble substance as we boil an egg for our ramen.
 
-{{< figure src="Egg_denaturation.jpg" caption="Denaturation of the proteins found in egg-white: ovalbumen and ovotransferrin. The left image represents the "native" conditions of the proteins, while the right image represents the denatured/unfolded state of the proteins." numbered="true" >}}
+{{< figure src="Egg_denaturation.jpg" caption="Denaturation of the proteins found in egg-white: ovalbumen and ovotransferrin. The left image represents the native conditions of the proteins, while the right image represents the denatured/unfolded state of the proteins." numbered="true" >}}
 
 ## Outlook and My Research: Cellular Conditions Does Not Equal Pure Water
 In the previous, we have seen that proteins' tendency to fold and unfold depends on temperature. However, this is only the tip of the iceberg.
