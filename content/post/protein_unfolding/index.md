@@ -113,7 +113,7 @@ This combined discipline is called [statistical thermodynamics](https://en.wikip
 Using statistical thermodynamics we will now demonstrate why proteins fold and unfold under various conditions, however, let us start by looking at how probability and thermodynamics connect.
 
 ### Probability and Thermodynamics: Statistical Thermodynamics
-Probability calculations in their most simple form are something we all encounter at some point in our life, however, statistical thermodynamics complicates it slightly by the introduction of the words _microstate_ and _partition function_ however the words can be very explained by comparing to something tangible: The probability of obtaining specific values when rolling dice as illustrated in the image below.
+Probability calculations in their most simple form are something we all encounter at some point in our life, however, statistical thermodynamics complicates it slightly by the introduction of the words _microstate_ and _partition function_ however the words can be explained by comparing to something tangible: The probability of obtaining specific values when rolling dice as illustrated in the image below.
 
 {{< figure src="Dice_Partition_function.png" caption="Statistical thermodynamics of a dice" numbered="true" >}}
 
