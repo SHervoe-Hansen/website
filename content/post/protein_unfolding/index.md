@@ -83,78 +83,98 @@ All atoms that engage in chemical bonding are differently charged due to the [in
 The charges that are attributed to atoms are called partial charges.
 Partial charges are, however, fictitious since they can not be measured by experiment, and the association of electron density to specific atoms would require an arbitrary man-made definition.
 
-While partial charge describes the charge associated with the individual atoms, we use the word "ion" to describe the total none-zero formal charge of molecules and atoms. In the case of proteins, we talk about the charged/ionic amino acid residues which possess the ability to carry the formal charge of either +1 (histidine, arginine, lysine) or -1 (aspartate, glutamate, cysteine, selenocysteine, tyrosine). The charge of these amino acid residues is gained from the gain and removal of protons with the behavior governed by classic acid-base chemistry.
+While partial charge describes the charge associated with the individual atoms, we use the word "ion" to describe the total non-zero formal charge of molecules and atoms. In the case of proteins, we talk about the charged/ionic amino acid residues which possess the ability to carry the formal charge of either +1 (histidine, arginine, lysine) or -1 (aspartate, glutamate, cysteine, selenocysteine, tyrosine). The charge of these amino acid residues is gained from the gain and removal of protons with the behavior governed by classic acid-base chemistry.
 
 Electrostatic interactions between point charges are described by the [Coulomb law](https://en.wikipedia.org/wiki/Coulomb%27s_law), which states the electrostatic energy between two point charges decays with $1/r$, where $r$ is the separation between the two charges. Due to this long-ranged force, proteins are commonly found to engage in a highly complicated network for electrostatic interactions throughout the protein which can stabilize the folded state.
 
 ### Hydrogen Bonding & Salt Bridges: Strong Polar Contacts
-[Hydrogen bonding](https://en.wikipedia.org/wiki/Hydrogen_bond) is a combination of multiple factors which together form a highly strong intermolecular bond. In specific there are two contributions in the form of electrostatic interactions and orbital overlap (bond covalency). A hydrogen bond occcurs when a hydrogen-bonded donator group, such as an amide, -N-H, shares its hydrogen with an acceptor group, such as a carbonyl oxygen, O=C-, thus leading to the hydrogen bond having the characteristic form D-H···:A, where D is the donor, A is the acceptor possessing an electron lone pair and ··· is the though-space interaction between the donor and accepted mediated by the hydrogen, H.
+[Hydrogen bonding](https://en.wikipedia.org/wiki/Hydrogen_bond) is a combination of multiple factors which together form a highly strong intermolecular bond. In specific, there are two contributions in the form of electrostatic interactions and orbital overlap (bond covalency). A hydrogen bond occurs when a hydrogen-bonded donator group, such as an amide, -N-H, shares its hydrogen with an acceptor group, such as carbonyl oxygen, O=C-, thus leading to the hydrogen bond having the characteristic form D-H···:A, where D is the donor, A is the acceptor possessing an electron lone pair and ··· is the though-space interaction between the donor and accepted mediated by the hydrogen, H.
 
 In folded proteins, a vast amount of hydrogen bonds are found, mainly among the backbone carbonyl groups and amide groups.
-The hydrogen bonds between these groups is the main stablizing force found in α-helices and β-sheets, making up the [secondary structure](https://en.wikipedia.org/wiki/Protein_secondary_structure) of proteins.
+The hydrogen bonds between these groups are the main stabilizing force found in α-helices and β-sheets, making up the [secondary structure](https://en.wikipedia.org/wiki/Protein_secondary_structure) of proteins.
 
-Due to hydrogen bonds having part electrostatic character, the "hydrogen bond strength" depends on the environment surronding it.
-While the dielectric constant in water is around 80, the dielectric constant in the protein interor is estimate to be 2-12 thus much more oil-like. 
+Due to hydrogen bonds having part electrostatic character, the "hydrogen bond strength" depends on the environment surrounding it.
+While the dielectric constant in water is around 80, the dielectric constant in the protein interior is estimated to be 2-12 thus much more oil-like.
 
-A special case of the hydrogen bond, occurs when the donor (D) and acceptor (A) are charged, having the form D⁺-H···:A⁻. This special case is in protein chemistry called a salt-bridge.
+A special case of the hydrogen bond occurs when the donor (D) and acceptor (A) are charged, having the form D⁺-H···:A⁻. This special case is in protein chemistry called a salt-bridge.
 A charged donor could for example be the ammonium group found in the side chain of lysine or the guanidino group found in the side chain of arginine.
 A charged acceptor in proteins could for example be found in the carboxylate group in the side chain of aspartate and glutamate.
-This interaction is even stronger than a hydrogen bond due to added electrostatic strength due to the charges, but is also pH dependent.
+This interaction is even stronger than a hydrogen bond due to added electrostatic strength due to the charges but is also pH dependent.
 
 ### van der Waals Interactions: Tight Packing Using Nonpolar Contacts
-[van der Waals interactions](https://en.wikipedia.org/wiki/Van_der_Waals_force) is an expression which covers multiple intermolecular forces including the attractive or repulsive electrostatic interactions originating from permanent multipoles (Keesom interactions), the attractive electrostatic interactions between instantaneously formed multiples (dispersion interactions or London interactions), the attractive interactions between permanent multipoles and induced multiples (induction interactions), and finally the repulsive interactions resulting from the Pauli exclusion princple which prohibit two atoms from occuring the same space simultaneously.
-While the previous is fairly complicated, we can simplify and say van der Waals interactions constitute short ranged attaction and even shorter ranged repulsion.
-Van der Waals interactions are responsible for the tight packing of proteins with a fraction of space filled inside a protein being around 74% being the same value as the most efficient packing of identical spheres. However, proteins are not perfectly packed, as we do observe internal protein dynamics. Instead proteins obtain such a high packing fraction due to the difference sizes and shapes the amino acid side chains.
+[van der Waals interactions](https://en.wikipedia.org/wiki/Van_der_Waals_force) is an expression that covers multiple intermolecular forces including the attractive or repulsive electrostatic interactions originating from permanent multipoles (Keesom interactions), the attractive electrostatic interactions between instantaneously formed multiples (dispersion interactions or London interactions), the attractive interactions between permanent multipoles and induced multiples (induction interactions), and finally the repulsive interactions resulting from the Pauli exclusion principle which prohibit two atoms from occurring the same space simultaneously.
+While the previous is fairly complicated, we can simplify and say van der Waals interactions constitute short-ranged attraction and even shorter-ranged repulsion.
+Van der Waals interactions are responsible for the tight packing of proteins with a fraction of space filled inside a protein being around 74% being the same value as the most efficient packing of identical spheres. However, proteins are not perfectly packed, as we do observe internal protein dynamics. Instead, proteins obtain such a high packing fraction due to the different sizes and shapes of the amino acid side chains.
 
 ## The Statistics of Protein Folding - Why do Proteins Fold?
-From the previous discussion of the forces should not be clear that the hetrogeneity of the amino acids yields the posibility for the protein to interact strongly with itself allowing and the sequence of amino acids ([the primary structure](https://en.wikipedia.org/wiki/Protein_primary_structure)) is of great importance in determining the structure formed by proteins.
-However, there are many ways a protein can interact with it self, so why does proteins tend to adapt a specific three-dimensional structure? To answer this question we will use a combination of statistics, which deals with the probability of events occuring, and thermodynamics, which deals with flow of heat and energy and spontanity of processess.
-This combined decipline is called [statistical thermodynamics](https://en.wikipedia.org/wiki/Statistical_mechanics) and is the fundation for my research.
-Using statistical thermodynamics we will now demonstrate why proteins fold and unfold under various conditions, however lets start by looking at how probability and thermodynamics connects.
+From the previous discussion of the interactions, it should now be clear that the heterogeneity of the amino acids yields the possibility for the protein to interact strongly with itself. Consequently, the sequence of amino acids ([the primary structure](https://en.wikipedia.org/wiki/Protein_primary_structure)) is of great importance in determining the structure formed by proteins.
+However, there are many ways a protein can interact with itself, so why do proteins tend to adopt a specific three-dimensional structure? To answer this question we will use a combination of statistics, which deals with the probability of events occurring, and thermodynamics, which deals with the flow of heat and energy and spontaneity of processes.
+This combined discipline is called [statistical thermodynamics](https://en.wikipedia.org/wiki/Statistical_mechanics) and is the foundation for my research.
+Using statistical thermodynamics we will now demonstrate why proteins fold and unfold under various conditions, however, let us start by looking at how probability and thermodynamics connect.
 
 ### Probability and Thermodynamics: Statistical Thermodynamics
-Probability calculations in their most simple form is something we all encounter at some point in our life, however statistical thermodynamics complicates it slightly by the introduction of the words _microstate_ and _partition function_ however the words can be very explained by comparing to something tangible: The probabily of obtain specific values when rolling a dice as illustrated in the image below.
+Probability calculations in their most simple form are something we all encounter at some point in our life, however, statistical thermodynamics complicates it slightly by the introduction of the words _microstate_ and _partition function_ however the words can be very explained by comparing to something tangible: The probability of obtaining specific values when rolling dice as illustrated in the image below.
 
 {{< figure src="Dice_Partition_function.png" caption="Statistical thermodynamics of a dice" numbered="true" >}}
 
-The word _microstate_ within the anology of dices referes one of the possible outcome when rolling the dice. As of such a 6-sided dice has 6 microstates, whereas a 20-sided dice has 20 microstates.
-The word _partition function_, donated $Q$, can best be explained using the Danish translation "tilstandssummen" which literally translates to "the sum of states". Within our dice analogy it thus referes to the total number of states the dice contain.
-Using these words it should then obvious that the probability of a microstate, observing a specific number from a die, is given as the ratio of weight of observing the specific microstate, being equal to 1, and the partition function, which is the total number of possible outcome.
-From this example it is obvious that all microstates possess the same probability equal to 1/6.
+The word _microstate_ within the analogy of dice refers to one of the possible outcomes when rolling the dice. As such a 6-sided dice has 6 microstates, whereas a 20-sided dice has 20 microstates.
+The word _partition function_, donated $Q$, can best be explained using the Danish translation "tilstandssummen" which translates to "the sum of states". Within our dice analogy, thus refers to the total number of states the dice contain.
+Using these words it should then be obvious that the probability of a microstate, observing a specific number from a die, is given as the ratio of the weight of observing the specific microstate, being equal to 1, and the partition function, which is the total number of the possible outcome.
+From this example, it is obvious that all microstates possess the same probability equal to 1/6.
 
-However, [Ludwig Boltzmann](https://en.wikipedia.org/wiki/Ludwig_Boltzmann), the founder of statistical thermodynamics, discovered that microstates of different energy does not possess equal probability.
-Within our dice example this would for example be the case if one uses a dice which is unequal in mass on all sides (loaded dice), such that the potential energy due to gravity is different for the various numbers shown by the dice. Ludwig Boltzmann discovered that the partition in such case takes the form:
+However, [Ludwig Boltzmann](https://en.wikipedia.org/wiki/Ludwig_Boltzmann), the founder of statistical thermodynamics, discovered that microstates of different energy do not possess equal probability.
+Within our dice example, this would for example be the case if one uses a dice that is unequal in mass on all sides (loaded dice), such that the potential energy due to gravity is different for the various numbers shown by the dice. Ludwig Boltzmann discovered that the partition function in the such case takes the form:
 $$
-Q = \sum_{\mathrm{microstates}} e^{\frac{-E}{RT}} 
+Q = \sum_{\mathrm{microstates}} e^{\frac{-E}{RT}}
 $$
-where the sum is conducted over the number of microstates, $E$ is the energy of the given microstate, $R$ is the gas constant, and $T$ is the temperature. The probability of a given microstate $i$ with energy $E$ is then like before given as the ratio of the weight between the microstate and the partition function.
+where the sum is conducted over the number of microstates, $E$ is the energy of the given microstate, $R$ is the gas constant, and $T$ is the temperature. The probability of a given microstate $i$ with energy $E$ is then as before given as the ratio of the weight between the microstate and the partition function.
 $$
 P_{i} = \frac{e^{\frac{-E}{RT}}}{Q}
 $$
-Returning to the loaded loaded dice example, using the potential energy associated with the different numbers we can write a partition function for the load dice and calculate the associated probabily of the individual microstates illustrated in the figure below.
+Returning to the loaded loaded dice example, using the potential energy associated with the different numbers we can write a partition function for the loaded dice and calculate the associated probability of the individual microstates illustrated in the figure below.
 
 {{< figure src="Dice_Partition_function_cheat.png" caption="Statistical thermodynamics of a loaded dice" numbered="true" >}}
 
-We find the dice showing the number 5, which is having the lead piece in the buttom of the dice, is having the highest probabily of all the microstates, as it would also be expected by rational thinking. As an excersis, you can show relationship between probabily and energy also works for the fair dice, in which all microstates (numbers) have the same energy due to the mass of the dice being uniform.
+We find the dice showing the number 5, which is having the lead piece at the bottom of the dice, is having the highest probability of all the microstates, as it would also be expected by rational thinking. As an exercise, you can show the relationship between probability and energy also works for the fair dice, in which all microstates (numbers) have the same energy due to the mass of the dice being uniform.
 
 ### Lattice Statistics of Proteins: The HP Model
-Having covered some of the fundamentals of statistical thermodynamics, we are now ready to address protein folding. To do so we will use the so-called "[hydrophobic-polar (HP) protein folding model](https://en.wikipedia.org/wiki/Hydrophobic-polar_protein_folding_model)" which reduces the number of amino acids from 21 to 2 with the two amino acids only being different from each other by one being hydrophobic (H) incapable of intermolecular interactions and the other being polar (P) having the ability to do hydrogen bonding with other adjcent residues.
-Adapting to a 2-dimensional latice and using the sequence "HPPHPH" the microstates have been visualized below
+Having covered some of the fundamentals of statistical thermodynamics, we are now ready to address protein folding.
+To do so we will use the so-called "[hydrophobic-polar (HP) protein folding model](https://en.wikipedia.org/wiki/Hydrophobic-polar_protein_folding_model)" which reduces the number of amino acids from 21 to 2 with the two amino acids only being different from each other by one residue being hydrophobic (H) capable of intermolecular interactions like van der Waals interactions and the other residue being polar (P) being incapable of forming intermolecular interactions with other adjacent residues.
+Modeling the whole amino acids as single spheres on a lattice, we can conduct a [self-avoiding walk](https://en.wikipedia.org/wiki/Self-avoiding_walk), to find all possible configurations the protein can adopt. Using the sequence "HPPHPH" the microstates possible have been visualized below
 
+{{< figure src="HPmodel.png" caption="Microstates for the HP model of a six-bead polymer having the sequence <b>HPPHPH</b>. The hydrophobic (H) residues are orange, while the polar (P) residues are green. The white dot indicates the first residue of the polymer, equivalent to the N-terminus of proteins. This polymer has 1 groundstate (lowest energy) conformation in which two HH contacts are present, 7 conformations in which 1 HH contact is present, and 28 conformations with no HH contacts. Each HH contact contributes with $\epsilon_{0} < 0$ which lowers the energy of the system. Borrowed from <i>K. Dill, R. L. Jernigan, I. Bahar, Protein Actions (Garland Science, 2017) https:/doi.org/10.1201/9781315212210.</i>" numbered="true" >}}
 
-
+Using the partition function we get
 $$
-Q = 28 + 7 e^{-\epsilon /RT} + e^{-2\epsilon / RT}
+Q = 28 e^{-0 /RT} + 7 e^{-\epsilon_{0} /RT} + 1 e^{-2\epsilon_{0} / RT}
 $$
+because $e^{0}=1$ we can simplify the expression to
+$$
+Q = 28 + 7 e^{-\epsilon_{0} /RT} + e^{-2\epsilon_{0} / RT}
+$$
+Having the partition function in place it is now trivial to calculate the probability of the system having 2 HH contacts, 1 HH contact, or no HH contacts:
+$$
+\begin{aligned}
+    P_{\mathrm{N}} &= \frac{e^{-2\epsilon_{0} / RT}}{Q} \\
+    P_{\mathrm{I}} &= \frac{7 e^{-\epsilon_{0} /RT}}{Q} \\
+    P_{\mathrm{D}} &= \frac{28}{Q}
+\end{aligned}
+$$
+Since the probability depends on the temperature $T$, the probability of the folded/native state $P_{\mathrm{N}}$ having 2 HH contacts, the probability of the intermediate state $P_{\mathrm{I}}$ having 1 HH contact, and the probability of the unfolded state $P_{\mathrm{D}}$ having no HH contacts has been visualized as a function of the temperature below.
 
+{{< figure src="Protein_unfolding.png" caption="Denaturation of the <b>HPPHPH</b> model protein. The populations of the folded, intermediate, and unfolded states are visualized as a function of temperature. The temperature is a reduced temperature definition related to the energy associated with HH contacts $epsilon_{0}$ by the definition: $T_{0}=\epsilon_{0}/R$" numbered="true" >}}
 
+As we can see the protein goes from high to lower probability in finding the folded, native state as we increase the temperature with the unfolded state instead becoming predominant.
+You can now explain why the egg proteins, ovalbumen, and ovotransferrin, found in egg-white change from a transparent, water-soluble substance to a white, water-insoluble substance as we boil an egg for our ramen.
+
+{{< figure src="Egg_denaturation.jpg" caption="Denaturation of the proteins found in egg-white: ovalbumen and ovotransferrin. The left image represents the "native" conditions of the proteins, while the right image represents the denatured/unfolded state of the proteins." numbered="true" >}}
 
 ## Outlook and My Research: Cellular Conditions Does Not Equal Pure Water
 In the previous, we have seen that proteins' tendency to fold and unfold depends on temperature. However, this is only the tip of the iceberg.
 There are many more effects that affect the proteins' structural stability, including pH, pressure, crowding, co-solvents, and other proteins.
 Additionally, proteins possess many equilibria which are important for correct biological functioning, with protein folding/unfolding being just one of them.
 
-Biologically relevant environments which possess high variability in terms of the previously mentioned physicochemical properties are not hard to find, with perhaps the most obvious example being the inside of a cell, the cytoplasm.
+Biologically relevant environments which possess high variability in terms of the previously mentioned physicochemical properties are not hard to find, with perhaps the most obvious example being the inside of a cell in the cytoplasm.
 To get a feeling of the highly complex and crowded environment inside a cell, I can highly recommend watching this video by the RIKEN research institute in Japan.
 
 {{< youtube 5JcFgj2gHx8 >}}
