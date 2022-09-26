@@ -26,7 +26,7 @@ image:
   caption: 'Image credit: [**M. Heyden, Disassembling solvation free energies into local contributions—Toward a microscopic understanding of solvation processes. WIREs Comput Mol Sci 9 (2018).**](doi.org/10.1002/wcms.1390)'
   focal_point: ''
   placement: 2
-  preview_only: false
+  preview_only: true
 
 authors:
   - admin
