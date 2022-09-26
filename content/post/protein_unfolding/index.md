@@ -154,7 +154,7 @@ Q = 28 + 7 e^{-\epsilon_{0} /RT} + e^{-2\epsilon_{0} / RT}
 $$
 Having the partition function in place it is now trivial to calculate the probability of the system having 2 HH contacts, 1 HH contact, or no HH contacts:
 $$
-    P_{\mathrm{N}} = \frac{e^{-2\epsilon_{0} / RT}}{Q}; \quad  P_{\mathrm{I}} = \frac{7 e^{-\epsilon_{0} /RT}}{Q}; \quad  P_{\mathrm{D}} &= \frac{28}{Q}
+P_{\mathrm{N}} = \frac{e^{-2\epsilon_{0} / RT}}{Q}; \quad P_{\mathrm{I}} = \frac{7 e^{-\epsilon_{0} /RT}}{Q}; \quad P_{\mathrm{D}} = \frac{28}{Q}
 $$
 Since the probability depends on the temperature $T$, the probability of the folded/native state $P_{\mathrm{N}}$ having 2 HH contacts, the probability of the intermediate state $P_{\mathrm{I}}$ having 1 HH contact, and the probability of the unfolded state $P_{\mathrm{D}}$ having no HH contacts has been visualized as a function of the temperature below.
 
