@@ -9,7 +9,7 @@ summary: An introduction to the perturbation of the structural stability of prot
 projects: []
 
 # Date published
-date: '2022-10-01'
+date: '2022-09-26'
 
 # Date updated
 lastmod: '2022-10-01'
