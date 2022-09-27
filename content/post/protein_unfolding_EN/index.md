@@ -128,7 +128,7 @@ Modeling the whole amino acids as single spheres on a lattice, we can conduct a 
 
 Since the probability depends on the temperature $T$, the probability of the folded/native state $P_{\mathrm{N}}$ having 2 HH contacts, the probability of the intermediate state $P_{\mathrm{I}}$ having 1 HH contact, and the probability of the unfolded state $P_{\mathrm{D}}$ having no HH contacts has been visualized as a function of the temperature below.
 
-{{< figure src="Protein_unfolding.png" caption="Denaturation of the <b>HPPHPH</b> model protein. The populations of the folded, intermediate, and unfolded states are visualized as a function of temperature. The temperature is a reduced temperature definition related to the energy associated with HH contacts $\epsilon_{0}$ by the definition: $T_{0}=\epsilon_{0}/R$" numbered="true" >}}
+{{< figure src="Protein_unfolding.png" caption="Denaturation of the <b>HPPHPH</b> model protein. The populations of the folded, intermediate, and unfolded states are visualized as a function of temperature. The temperature is a reduced temperature definition related to the energy per HH contacts, $\epsilon_{0}$, by the definition: $T_{0}=\epsilon_{0}/R$ where $R$ is the gas constant." numbered="true" >}}
 
 As we can see the protein goes from high to lower probability in finding the folded, native state as we increase the temperature with the unfolded, denatured state instead becoming predominant.
 You can now explain why the egg proteins, ovalbumen, and ovotransferrin, found in egg-white change from a transparent, water-soluble substance to a white, water-insoluble substance as we boil an egg for our ramen.
