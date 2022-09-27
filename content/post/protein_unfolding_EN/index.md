@@ -1,9 +1,9 @@
 ---
 title: "Protein Solvation Thermodynamics: The Unfolding Equilibrium (ENGLISH VERSION)"
-subtitle: An introduction to the perturbation of the structural stability of proteins by physicochemical means. For a Japanese version [click here]().
+subtitle: An introduction to the change in structural stability of proteins induced by physicochemical means. For a Japanese version [click here]().
 
 # Summary for listings and search engines
-summary: An introduction to the perturbation of the structural stability of proteins by physicochemical means. 
+summary: An introduction to the change in structural stability of proteins induced by physicochemical means. 
 
 # Link this post with a project
 projects: []
@@ -15,7 +15,7 @@ date: '2022-09-26'
 lastmod: '2022-10-01'
 
 # Is this an unpublished draft?
-draft: true
+draft: false
 
 # Show this page in the Featured widget?
 featured: true
@@ -78,11 +78,6 @@ In specific, many amino acid residues possesses hydrophobic (non-polar) side cha
 To exclude water from hydrophobic amino acid residues, proteins usually bury their hydrophobic residues within the interior of the protein by collapsing on themselves, also called the [hydrophobic collapse](https://en.wikipedia.org/wiki/Hydrophobic_collapse).
 
 ### Electrostatics Interactions: Long-Ranged Correlations
-Electrostatics describes the interactions between charged bodies which are stationary or moving so slowly that there are no magnetic forces between the bodies.
-All atoms that engage in chemical bonding are differently charged due to the [inductive effect](https://en.wikipedia.org/wiki/Inductive_effect).
-The charges that are attributed to atoms are called partial charges.
-Partial charges are, however, fictitious since they can not be measured by experiment, and the association of electron density to specific atoms would require an arbitrary man-made definition.
-
 While partial charge describes the charge associated with the individual atoms, we use the word "ion" to describe the total non-zero formal charge of molecules and atoms. In the case of proteins, we talk about the charged/ionic amino acid residues which possess the ability to carry the formal charge of either +1 (histidine, arginine, lysine) or -1 (aspartate, glutamate, cysteine, selenocysteine, tyrosine). The charge of these amino acid residues is gained from the gain and removal of protons with the behavior governed by classic acid-base chemistry.
 
 Electrostatic interactions between point charges are described by the [Coulomb law](https://en.wikipedia.org/wiki/Coulomb%27s_law), which states the electrostatic energy between two point charges decays with $1/r$, where $r$ is the separation between the two charges. Due to this long-ranged force, proteins are commonly found to engage in a highly complicated network for electrostatic interactions throughout the protein which can stabilize the folded state.
@@ -102,8 +97,6 @@ A charged acceptor in proteins could for example be found in the carboxylate gro
 This interaction is even stronger than a hydrogen bond due to added electrostatic strength due to the charges but is also pH dependent.
 
 ### van der Waals Interactions: Tight Packing Using Nonpolar Contacts
-[van der Waals interactions](https://en.wikipedia.org/wiki/Van_der_Waals_force) is an expression that covers multiple intermolecular forces including the attractive or repulsive electrostatic interactions originating from permanent multipoles (Keesom interactions), the attractive electrostatic interactions between instantaneously formed multiples (dispersion interactions or London interactions), the attractive interactions between permanent multipoles and induced multiples (induction interactions), and finally the repulsive interactions resulting from the Pauli exclusion principle which prohibit two atoms from occurring the same space simultaneously.
-While the previous is fairly complicated, we can simplify and say van der Waals interactions constitute short-ranged attraction and even shorter-ranged repulsion.
 Van der Waals interactions are responsible for the tight packing of proteins with a fraction of space filled inside a protein being around 74% being the same value as the most efficient packing of identical spheres. However, proteins are not perfectly packed, as we do observe internal protein dynamics. Instead, proteins obtain such a high packing fraction due to the different sizes and shapes of the amino acid side chains.
 
 ## The Statistics of Protein Folding - Why do Proteins Fold?
@@ -122,20 +115,9 @@ The word _partition function_, donated $Q$, can best be explained using the Dani
 Using these words it should then be obvious that the probability of a microstate, observing a specific number from a die, is given as the ratio of the weight of observing the specific microstate, being equal to 1, and the partition function, which is the total number of the possible outcome.
 From this example, it is obvious that all microstates possess the same probability equal to 1/6.
 
-However, [Ludwig Boltzmann](https://en.wikipedia.org/wiki/Ludwig_Boltzmann), the founder of statistical thermodynamics, discovered that microstates of different energy do not possess equal probability.
-Within our dice example, this would for example be the case if one uses a dice that is unequal in mass on all sides (loaded dice), such that the potential energy due to gravity is different for the various numbers shown by the dice. Ludwig Boltzmann discovered that the partition function in the such case takes the form:
-$$
-Q = \sum_{\mathrm{microstates}} e^{\frac{-E}{RT}}
-$$
-where the sum is conducted over the number of microstates, $E$ is the energy of the given microstate, $R$ is the gas constant, and $T$ is the temperature. The probability of a given microstate $i$ with energy $E$ is then as before given as the ratio of the weight between the microstate and the partition function.
-$$
-P_{i} = \frac{e^{\frac{-E}{RT}}}{Q}
-$$
-Returning to the loaded loaded dice example, using the potential energy associated with the different numbers we can write a partition function for the loaded dice and calculate the associated probability of the individual microstates illustrated in the figure below.
+However, [Ludwig Boltzmann](https://en.wikipedia.org/wiki/Ludwig_Boltzmann), the founder of statistical thermodynamics, discovered that microstates of different energy do not possess equal probability. Within our dice example, this would for example be the case if one uses a dice that is unequal in mass on all sides (loaded dice), such that the potential energy due to gravity is different for the various numbers shown by the dice. The equation which determines the probability of a microstate is called the [Boltzmann distribution](https://en.wikipedia.org/wiki/Boltzmann_distribution). While the mathematics may still be slightly complicated, the main message to take away is the following: The probability of a microstate depends on its energy and the temperature of the system the application includes a great variety of systems; from the description of dice (fair and loaded) to the description of atoms and molecules.
 
-{{< figure src="Dice_Partition_function_cheat.png" caption="Statistical thermodynamics of a loaded dice" numbered="true" >}}
-
-We find the dice showing the number 5, which is having the lead piece at the bottom of the dice, is having the highest probability of all the microstates, as it would also be expected by rational thinking. As an exercise, you can show the relationship between probability and energy also works for the fair dice, in which all microstates (numbers) have the same energy due to the mass of the dice being uniform.
+{{< figure src="Dice_Cheat_Simple.png" caption="Statistical thermodynamics of a loaded dice" numbered="true" >}}
 
 ### Lattice Statistics of Proteins: The HP Model
 Having covered some of the fundamentals of statistical thermodynamics, we are now ready to address protein folding.
@@ -144,29 +126,11 @@ Modeling the whole amino acids as single spheres on a lattice, we can conduct a 
 
 {{< figure src="HPmodel.png" caption="Microstates for the HP model of a six-bead polymer having the sequence <b>HPPHPH</b>. The hydrophobic (H) residues are orange, while the polar (P) residues are green. The white dot indicates the first residue of the polymer, equivalent to the N-terminus of proteins. This polymer has 1 groundstate (lowest energy) conformation in which two HH contacts are present, 7 conformations in which 1 HH contact is present, and 28 conformations with no HH contacts. Each HH contact contributes with $\epsilon_{0} < 0$ which lowers the energy of the system. Borrowed from <i>K. Dill, R. L. Jernigan, I. Bahar, Protein Actions (Garland Science, 2017) https:/doi.org/10.1201/9781315212210.</i>" numbered="true" >}}
 
-Using the partition function we get
-$$
-Q = 28 e^{-0 /RT} + 7 e^{-\epsilon_{0} /RT} + 1 e^{-2\epsilon_{0} / RT}
-$$
-because $e^{0}=1$ we can simplify the expression to
-$$
-Q = 28 + 7 e^{-\epsilon_{0} /RT} + e^{-2\epsilon_{0} / RT}
-$$
-Having the partition function in place it is now trivial to calculate the probability of the system having 2 HH contacts, 1 HH contact, or no HH contacts:
-$$
-P_{\mathrm{N}} = \frac{e^{-2\epsilon_{0} / RT}}{Q}
-$$
-$$
-P_{\mathrm{I}} = \frac{7 e^{-\epsilon_{0} /RT}}{Q}
-$$
-$$
-P_{\mathrm{D}} = \frac{28}{Q}
-$$
 Since the probability depends on the temperature $T$, the probability of the folded/native state $P_{\mathrm{N}}$ having 2 HH contacts, the probability of the intermediate state $P_{\mathrm{I}}$ having 1 HH contact, and the probability of the unfolded state $P_{\mathrm{D}}$ having no HH contacts has been visualized as a function of the temperature below.
 
 {{< figure src="Protein_unfolding.png" caption="Denaturation of the <b>HPPHPH</b> model protein. The populations of the folded, intermediate, and unfolded states are visualized as a function of temperature. The temperature is a reduced temperature definition related to the energy associated with HH contacts $epsilon_{0}$ by the definition: $T_{0}=\epsilon_{0}/R$" numbered="true" >}}
 
-As we can see the protein goes from high to lower probability in finding the folded, native state as we increase the temperature with the unfolded state instead becoming predominant.
+As we can see the protein goes from high to lower probability in finding the folded, native state as we increase the temperature with the unfolded, denatured state instead becoming predominant.
 You can now explain why the egg proteins, ovalbumen, and ovotransferrin, found in egg-white change from a transparent, water-soluble substance to a white, water-insoluble substance as we boil an egg for our ramen.
 
 {{< figure src="Egg_denaturation.jpg" caption="Denaturation of the proteins found in egg-white: ovalbumen and ovotransferrin. The left image represents the native conditions of the proteins, while the right image represents the denatured/unfolded state of the proteins." numbered="true" >}}
