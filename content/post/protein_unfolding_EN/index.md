@@ -69,7 +69,7 @@ Whether an interaction between two amino acid residues is long-ranged or short-r
 
 ### Hydrophobic Interactions: Oil-Water Separation
 The [hydrophobic effect](https://en.wikipedia.org/wiki/Hydrophobic_effect) is perhaps best recognized from the phase separation of water and oil, which is traditionally attributed to the unfavourability of mixing polar and non-polar molecules.
-Even though the hydrophobic effect is a complicated phenomenon and has for a long time been an active topic of research, it is now evident that the hydrophobic effect is a consequence of water-water hydrogen bonding and their perturbation by non-polar solutes.
+Even though the hydrophobic effect is a complicated phenomenon and has for a long time been an active topic of research, it is now evident that the hydrophobic effect is a consequence of water-water hydrogen bonding and waters' orientation around non-polar solutes.
 Put simply and slightly oversimplified, water hydrogen bonding is so strong that water would rather interact with other water molecules than solvating the non-polar solute.
 This implies that the non-polar solute molecules will position themselves such that it minimizes their exposure to water, by for example the formation of oligomers or for elongated solutes to collapse upon themselves, thus allowing water to maximize water-water interactions.
 
