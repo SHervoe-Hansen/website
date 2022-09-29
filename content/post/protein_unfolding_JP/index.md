@@ -1,5 +1,7 @@
 ---
-title: "タンパク質の溶媒和効果：<br>構造平衡 (日本語版)"
+title: "タンパク質の溶媒和効果：
+
+構造平衡 (日本語版)"
 subtitle: 物理化学的手法により引き起こされるタンパク質の構造安定性の変化について。　[英語版はこちら。](https://shhansen.netlify.app/post/protein_unfolding_en/).
 
 # Summary for listings and search engines
