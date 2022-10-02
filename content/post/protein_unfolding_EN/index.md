@@ -1,6 +1,6 @@
 ---
 title: "Protein Solvation Thermodynamics: The Unfolding Equilibrium (ENGLISH VERSION)"
-subtitle: An introduction to the change in structural stability of proteins induced by physicochemical means. For a Japanese version [click here](https://shhansen.netlify.app/post/protein_unfolding_en/).
+subtitle: An introduction to the change in structural stability of proteins induced by physicochemical means. For a Japanese version [click here](https://shhansen.netlify.app/post/protein_unfolding_jp/).
 
 # Summary for listings and search engines
 summary: An introduction to the change in structural stability of proteins induced by physicochemical means. 
