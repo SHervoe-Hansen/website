@@ -9,10 +9,10 @@ summary: An introduction to the change in structural stability of proteins induc
 projects: []
 
 # Date published
-date: '2022-09-26'
+date: '2022-10-01'
 
 # Date updated
-lastmod: '2022-10-01'
+lastmod: '2022-10-02'
 
 # Is this an unpublished draft?
 draft: false
