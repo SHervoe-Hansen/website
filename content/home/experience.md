@@ -48,7 +48,7 @@ experience:
 
         Teaching conducted:
 
-        * Stistical Thermodynamics and Molecular Simulations
+        * Statistical Thermodynamics and Molecular Simulations
 
         * Python Programming for Chemists
         
