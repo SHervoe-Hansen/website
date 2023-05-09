@@ -26,7 +26,7 @@ content:
 
   # Contact details (edit or remove options as required)
   email: stefan@cheng.es.osaka-u.ac.jp
-  phone: 
+  phone: +81 080-8544-4852 
   address:
     street: 1-3 Machikaneyama-cho
     city: Toyonaka-shi
