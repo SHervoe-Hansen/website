@@ -1,5 +1,5 @@
 ---
-title: 'Impact of Arginine–Phosphate Interactions on the Reentrant Condensation of Disordered Proteins'
+title: 'Chemometrics in Protein Formulation: Stability Governed by Repulsion and Protein Unfolding'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
