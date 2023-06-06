@@ -1,10 +1,10 @@
 ---
-title: Slides
-summary: An introduction to using Wowchemy's Slides feature.
-authors: []
-tags: []
+title: Anion-Cation Contrast in Solute Solvation
+summary: Talk given at MSL2023
+authors: [admin]
+tags: [Presentation]
 categories: []
-date: '2019-02-05T00:00:00Z'
+date: '2023-06-11T09:00:00Z'
 slides:
   # Choose a theme from https://github.com/hakimel/reveal.js#theming
   theme: black
