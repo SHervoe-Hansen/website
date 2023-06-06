@@ -4,7 +4,7 @@ summary: Talk given at MSL2023
 authors: [admin]
 tags: [Presentation]
 categories: []
-date: '2023-06-11T09:00:00Z'
+date: '2020-06-11T09:00:00Z'
 slides:
   # Choose a theme from https://github.com/hakimel/reveal.js#theming
   theme: black
@@ -13,9 +13,9 @@ slides:
   highlight_style: dracula
 ---
 
-# Create slides in Markdown with Wowchemy
-
-[Wowchemy](https://wowchemy.com/) | [Documentation](https://owchemy.com/docs/managing-content/#create-slides)
+# Anion-Cation Contrast in Solute Solvation
+### Stefan Hervø-Hansen, Osaka University
+### June 11, 2023
 
 ---
 
