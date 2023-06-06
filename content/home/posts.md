@@ -17,6 +17,7 @@ content:
   filters:
     folders:
       - post
+      - event
     tag: ''
     category: ''
     publication_type: ''
