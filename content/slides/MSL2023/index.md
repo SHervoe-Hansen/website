@@ -38,7 +38,7 @@ slides:
 {{< slide background-image="Franz_hofmeister.jpg" >}}
 
 {{% fragment %}} Monovalent anion series: F⁻ > Cl⁻ > I⁻ {{% /fragment %}}
-{{% fragment %]} Monovalent cation series: Na⁺ > K⁺ > Cs⁺ {{% /fragment %}}
+{{% fragment %}} Monovalent cation series: Na⁺ > K⁺ > Cs⁺ {{% /fragment %}}
 
 ---
 
