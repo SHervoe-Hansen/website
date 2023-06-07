@@ -47,7 +47,7 @@ slides:
 
 #### Nomenclature:
 
-{{% fragment %}} *Salting-in*: Increased solubility in aqueous phase, ΔG<sub>sol</sub>decreases, kₛ decreases. {{% /fragment %}}
+{{% fragment %}} *Salting-in*: Increased solubility in aqueous phase, ΔG<sub>sol</sub> decreases, kₛ decreases. {{% /fragment %}}
 <br><br>
 {{% fragment %}} *Salting-out*: Decreasing solubility in aqueous phase, ΔG<sub>sol</sub> increases, kₛ increases. {{% /fragment %}}
 
@@ -77,7 +77,10 @@ $$
 #### Setschenow coefficients
 <font size="5">
 $$
-\ln\left(\frac{S(c_s)}{S(0)}\right) = -k_s c_s = -\frac{\Delta \Delta G_{\mathrm{sol}}}{RT}, \Delta \Delta G_{\mathrm{sol}}=\Delta G_{\mathrm{sol}}(c_s)-\Delta G_{\mathrm{sol}}(0)
+\ln\left(\frac{S(c_s)}{S(0)}\right) = -k_s c_s = -\frac{\Delta \Delta G_{\mathrm{sol}}}{RT}
+$$
+$$
+\Delta \Delta G_{\mathrm{sol}}=\Delta G_{\mathrm{sol}}(c_s)-\Delta G_{\mathrm{sol}}(0)
 $$
 </font>
 
@@ -85,17 +88,34 @@ $$
 
 ---
 
-#### Anion-Cation Contrast
+#### Anion-cation contrast
 <font size="5">
 $$
 \Delta G_{\mathrm{sol}} = \cancel{\Delta G_{\mathrm{self}}} + \Delta G_{\mathrm{anion}} + \Delta G_{\mathrm{cation}} + \Delta G_{\mathrm{water}}
 $$
 $$
-k_s = \frac{1}{RT} \left( \frac{\partial \Delta G_{\mathrm{anion}}}{\partial C_{s}} + \frac{\partial \Delta G_{\mathrm{cation}}}{\partial C_{s}} + \frac{\partial \Delta G_{\mathrm{water}}}{\partial C_{s}} \right)
+k_s = \frac{1}{RT} \left( \frac{\partial \Delta G_{\mathrm{anion}}}{\partial c_{s}} + \frac{\partial \Delta G_{\mathrm{cation}}}{\partial c_{s}} + \frac{\partial \Delta G_{\mathrm{water}}}{\partial c_{s}} \right)
 $$
 </font>
 
 {{< figure src="SetschenowSpecies.png" >}}
+
+---
+
+#### Interaction-component analysis
+
+
+---
+
+#### Interaction-component analysis: The interaction component
+
+{{< figure src="InteractionComponent.png" <}}
+
+---
+
+#### Cation contribution: Binding
+
+{{< figure src="CationBinding.png" <}}
 
 ---
 
