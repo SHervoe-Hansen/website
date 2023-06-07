@@ -14,8 +14,8 @@ slides:
 ---
 
 {{< slide background-image="glowing_water.jpg" >}}
-# \textcolor{silver}{Anion-Cation Contrast in Solute Solvation}
-\textcolor{silver}{Stefan Hervø-Hansen | June 11, 2023 | MSL2023}
+# <span style="color:silver">Anion-Cation Contrast in Solute Solvation</span>
+<span style="color:silver">Stefan Hervø-Hansen | June 11, 2023 | MSL2023</span>
 
 ---
 
