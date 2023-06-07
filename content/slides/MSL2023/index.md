@@ -49,7 +49,7 @@ slides:
 Nomenclature:
 
 {{% fragment %}} *Salting-in*: Increased solubility in aqueous phase, ΔG<sub>sol</sub>decreases, kₛ decreases. {{% /fragment %}}
-{{% fragment %]} *Salting-out*: Decreasing solubility in aqueous phase, ΔG<sub>sol</sub> increases, kₛ increases. {{% /fragment %}}
+{{% fragment %}} *Salting-out*: Decreasing solubility in aqueous phase, ΔG<sub>sol</sub> increases, kₛ increases. {{% /fragment %}}
 
 ---
 
