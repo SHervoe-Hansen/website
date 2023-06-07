@@ -34,7 +34,10 @@ slides:
 ---
 
 {{< slide background-image="Franz_hofmeister.jpg" >}}
-#### <span style="color:purple"> Hofmeister series </span>
+
+---
+
+#### Hofmeister series
 
 {{% fragment %}} Monovalent anion series: F⁻ > Cl⁻ > I⁻ {{% /fragment %}}
 <br>
@@ -42,8 +45,7 @@ slides:
 
 ---
 
-{{< slide background-image="Franz_hofmeister.jpg" >}}
-#### span Hofmeister series
+#### Hofmeister series
 
 Nomenclature:
 <br>
@@ -55,6 +57,21 @@ Nomenclature:
 
 #### Thermodynamic framework for solvation thermodynamics
 
+$$
+\beta \mu^{\mathrm{ex}} = \mu_{\mathrm{r}} + \langle \Delta U_{\mathrm{a}} \rangle_{\lambda=1} + RT \ln \left\langle e^{\beta \left( \langle U_{\mathrm{a}} \rangle - U_{\mathrm{a}} \right)} \right\rangle_{\lambda=1}
+$$
+
+{{% fragment %}}
+Energy-Representation Theory of Solvation allows a strightforward into such energetic decomposition:
+$$
+\Delta G_{\mathrm{sol}} = \sum_{\mathrm{species},\ i} \Delta G_{\mathrm{sol}, i}
+$$
+$$
+\Delta G_{\mathrm{sol},i}=\int \rho(\epsilon) \epsilon \ \mathrm{d}\epsilon - \int \mathcal{F}'(\epsilon) \ \mathrm{d}\epsilon
+$$
+{{% /fragment %}
+
+<font size="3"> [Widom, J Chem Phys. 1963](https://doi.org/10.1063/1.1734110), [van der Vegt & Nayar, J Phys Chem B. 2017](https://doi.org/10.1021/acs.jpcb.7b06453) </font>
 
 
 ---
