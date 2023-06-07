@@ -40,17 +40,15 @@ slides:
 #### Hofmeister series
 
 {{% fragment %}} Monovalent anion series: F⁻ > Cl⁻ > I⁻ {{% /fragment %}}
-<br>
+<br><br>
 {{% fragment %}} Monovalent cation series: Na⁺ > K⁺ > Cs⁺ {{% /fragment %}}
 
 ---
 
-#### Hofmeister series
+#### Nomenclature:
 
-Nomenclature:
-<br>
 {{% fragment %}} *Salting-in*: Increased solubility in aqueous phase, ΔG<sub>sol</sub>decreases, kₛ decreases. {{% /fragment %}}
-<br>
+<br><br>
 {{% fragment %}} *Salting-out*: Decreasing solubility in aqueous phase, ΔG<sub>sol</sub> increases, kₛ increases. {{% /fragment %}}
 
 ---
@@ -62,13 +60,14 @@ $$
 $$
 
 {{% fragment %}}
-Energy-Representation Theory of Solvation allows a strightforward into such energetic decomposition:
+<font size="10"> Energy-Representation Theory of Solvation allows a strightforward into such energetic decomposition:
 $$
 \Delta G_{\mathrm{sol}} = \sum_{\mathrm{species},\ i} \Delta G_{\mathrm{sol}, i}
 $$
 $$
 \Delta G_{\mathrm{sol},i}=\int \rho(\epsilon) \epsilon \ \mathrm{d}\epsilon - \int \mathcal{F}'(\epsilon) \ \mathrm{d}\epsilon
 $$
+</font>
 {{% /fragment %}}
 
 <font size="3"> [Widom, J Chem Phys. 1963](https://doi.org/10.1063/1.1734110), [van der Vegt & Nayar, J Phys Chem B. 2017](https://doi.org/10.1021/acs.jpcb.7b06453) </font>
