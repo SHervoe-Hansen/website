@@ -60,7 +60,7 @@ $$
 $$
 
 {{% fragment %}}
-<font size="10"> Energy-Representation Theory of Solvation allows a strightforward into such energetic decomposition:
+<font size="5"> Energy-Representation Theory of Solvation allows a strightforward into such energetic decomposition:
 $$
 \Delta G_{\mathrm{sol}} = \sum_{\mathrm{species},\ i} \Delta G_{\mathrm{sol}, i}
 $$
