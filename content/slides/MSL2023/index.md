@@ -109,13 +109,13 @@ $$
 
 #### Interaction-component analysis: The interaction component
 
-{{< figure src="InteractionComponent.png" <}}
+{{< figure src="InteractionComponent.png" >}}
 
 ---
 
 #### Cation contribution: Binding
 
-{{< figure src="CationBinding.png" <}}
+{{< figure src="CationBinding.png" >}}
 
 ---
 
