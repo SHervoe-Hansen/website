@@ -12,19 +12,15 @@ slides:
   #   Light style: github. Dark style: dracula (default).
   highlight_style: dracula
 ---
-
+{{< slide background-image="/media/MSL2023/glowing_water.jpg" >}}
 # Anion-Cation Contrast in Solute Solvation
-### Stefan Hervø-Hansen, Osaka University
-### June 11, 2023
+Stefan Hervø-Hansen | June 11, 2023 | MSL2023
 
 ---
 
-## Features
+## Drug and materials discovery is a complex, expensive, and time-consuming 
 
-- Efficiently write slides in Markdown
-- 3-in-1: Create, Present, and Publish your slides
-- Supports speaker notes
-- Mobile friendly slides
+![original](/media/MSL2023/drug_expense.jpg){:width="100px"}
 
 ---
 
