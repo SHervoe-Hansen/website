@@ -13,19 +13,9 @@ slides:
   highlight_style: dracula
 ---
 
-h1 {
-  font-size: 72px;
-   background: -webkit-linear-gradient(left, red , yellow);
-   background: -o-linear-gradient(right, red, yellow);
-   background: -moz-linear-gradient(right, red, yellow);
-   background: linear-gradient(to right, red , yellow); 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 {{< slide background-image="glowing_water.jpg" >}}
-<h1># Anion-Cation Contrast in Solute Solvation</h1>
-Stefan Hervø-Hansen | June 11, 2023 | MSL2023
+<h1 style="color:silver;"># Anion-Cation Contrast in Solute Solvation
+Stefan Hervø-Hansen | June 11, 2023 | MSL2023 </h1>
 
 ---
 
