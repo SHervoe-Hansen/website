@@ -12,13 +12,24 @@ slides:
   #   Light style: github. Dark style: dracula (default).
   highlight_style: dracula
 ---
+
+h1 {
+  font-size: 72px;
+   background: -webkit-linear-gradient(left, red , yellow);
+   background: -o-linear-gradient(right, red, yellow);
+   background: -moz-linear-gradient(right, red, yellow);
+   background: linear-gradient(to right, red , yellow); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 {{< slide background-image="glowing_water.jpg" >}}
-# Anion-Cation Contrast in Solute Solvation
+<h1># Anion-Cation Contrast in Solute Solvation</h1>
 Stefan Hervø-Hansen | June 11, 2023 | MSL2023
 
 ---
 
-#### Drug and materials discovery is a complex, expensive, and time-consuming 
+#### Drug and materials discovery is a complex, expensive, and time-consuming
 
 {{< figure src="drug_expense.jpg" >}} 
 <font size="3"> [Scannell et al. Nat Rev Drug Discov. 2012](https://doi.org/10.1038/nrd3681) </font>
