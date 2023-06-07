@@ -21,7 +21,7 @@ Stefan Hervø-Hansen | June 11, 2023 | MSL2023
 #### Drug and materials discovery is a complex, expensive, and time-consuming 
 
 {{< figure src="drug_expense.jpg" >}} 
-<font size="1"> [Scannell et al. Nat Rev Drug Discov. 2012](https://doi.org/10.1038/nrd3681) </font›
+<font size="3"> [Scannell et al. Nat Rev Drug Discov. 2012](https://doi.org/10.1038/nrd3681) </font>
 
 ---
 
