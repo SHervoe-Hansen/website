@@ -34,21 +34,21 @@ slides:
 ---
 
 {{< slide background-image="Franz_hofmeister.jpg" >}}
-#### Hofmeister series
+#### <span style="color:purple"> Hofmeister series </span>
 
 {{% fragment %}} Monovalent anion series: F⁻ > Cl⁻ > I⁻ {{% /fragment %}}
-
+<br>
 {{% fragment %}} Monovalent cation series: Na⁺ > K⁺ > Cs⁺ {{% /fragment %}}
 
 ---
 
 {{< slide background-image="Franz_hofmeister.jpg" >}}
-#### Hofmeister series
+#### span Hofmeister series
 
 Nomenclature:
-
+<br>
 {{% fragment %}} *Salting-in*: Increased solubility in aqueous phase, ΔG<sub>sol</sub>decreases, kₛ decreases. {{% /fragment %}}
-
+<br>
 {{% fragment %}} *Salting-out*: Decreasing solubility in aqueous phase, ΔG<sub>sol</sub> increases, kₛ increases. {{% /fragment %}}
 
 ---
