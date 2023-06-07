@@ -26,6 +26,36 @@ slides:
 
 ---
 
+#### Solvation free energies to understand underlying physics of liquid structure
+
+{{< figure src="charge_asymmetry.png" >}}
+<font size="3"> [Mobley et al. J Phys Chem B. 2008](https://doi.org/10.1021/jp709958f) </font>
+
+---
+
+#### Hofmeister series
+
+{{< slide background-image="Franz_hofmeister.jpg" >}}
+
+{{% fragment %}} Monovalent anion series: F⁻ > Cl⁻ > I⁻ {{% /fragment %}}
+{{% fragment %]} Monovalent cation series: Na⁺ > K⁺ > Cs⁺ {{% /fragment %}}
+
+---
+
+#### Hofmeister series
+
+{{< slide background-image="Franz_hofmeister.jpg" >}}
+
+Nomenclature:
+
+{{% fragment %}} *Salting-in*: Increased solubility in aqueous phase, ΔG<sub>sol</sub>decreases, kₛ decreases. {{% /fragment %}}
+{{% fragment %]} *Salting-out*: Decreasing solubility in aqueous phase, ΔG<sub>sol</sub> increases, kₛ increases. {{% /fragment %}}
+
+---
+
+#### Thermodynamic framework for solvation thermodynamics
+
+
 ## Controls
 
 - Next: `Right Arrow` or `Space`
