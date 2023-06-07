@@ -70,7 +70,7 @@ $$
 </font>
 {{% /fragment %}}
 
-<font size="3"> [Widom, J Chem Phys. 1963](https://doi.org/10.1063/1.1734110), [van der Vegt & Nayar, J Phys Chem B. 2017](https://doi.org/10.1021/acs.jpcb.7b06453), [Matubayasi, BCSJ. 2019](https://doi.org/10.1246/bcsj.20190246) </font>
+<font size="3"> [Widom, J Chem Phys. 1963](https://doi.org/10.1063/1.1734110); [van der Vegt & Nayar, J Phys Chem B. 2017](https://doi.org/10.1021/acs.jpcb.7b06453); [Matubayasi, BCSJ. 2019](https://doi.org/10.1246/bcsj.20190246) </font>
 
 
 ---
