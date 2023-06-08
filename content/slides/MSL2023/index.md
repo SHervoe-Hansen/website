@@ -91,11 +91,6 @@ $$
 
 #### Anion-cation contrast
 
-<script src="plugin/math/math.js"></script>
-<script>
-  Reveal.initialize({ plugins: [ RevealMath.KaTeX ] });
-</script>
-
 <font size="5">
 $$
 \Delta G_{\mathrm{sol}} = \cancel{\Delta G_{\mathrm{self}}} + \Delta G_{\mathrm{anion}} + \Delta G_{\mathrm{cation}} + \Delta G_{\mathrm{water}}
@@ -111,6 +106,11 @@ $$
 ---
 
 #### Interaction-component analysis
+
+<script src="plugin/math/math.js"></script>
+<script>
+  Reveal.initialize({ plugins: [ RevealMath.KaTeX ] });
+</script>
 
 \[\begin{aligned}    
     \mu^{\mathrm{ex}} =&amp; \int_{-\infty}^{\epsilon_{\mathrm{max}}} \varepsilon \rho_1(\varepsilon) \  \mathrm{d}\varepsilon + \int_{-\infty}^{\epsilon_{\mathrm{max}}} \mathcal{F}(\rho_0, \rho_1;\varepsilon) \  \mathrm{d}\varepsilon \\
