@@ -76,8 +76,9 @@ $$
 
 #### Acknowledgements
 <section>
-    <img width="300" src="http://static.slid.es.s3.amazonaws.com/support/insert-video.png">
-    <img width="300" src="http://static.slid.es.s3.amazonaws.com/support/insert-video.png">
+    <img width="300" src="https://images.squarespace-cdn.com/content/v1/57a45f33c534a5832b558f0f/1511267602299-O2HBB5C9AF0TM8WDFNK1/mikael_lund_500x500.png?format=750w">
+    <img width="300" src="https://janheyda.files.wordpress.com/2014/02/heyda-photo.jpg">
+    <img width="300" src="https://pubs.rsc.org/image/article/2017/CP/c7cp02132a/c7cp02132a-p2_hi-res.gif">
 </section>
 
 ---
@@ -168,8 +169,5 @@ Visit my poster and let us disscuss:
 
 ---
 
-# Questions?
+#### Conclusions
 
-[Ask](https://github.com/wowchemy/wowchemy-hugo-modules/discussions)
-
-[Documentation](https://wowchemy.com/docs/managing-content/#create-slides)
