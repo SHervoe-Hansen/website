@@ -93,7 +93,7 @@ $$
 </div>
 <div class="image-wrapper"> 
         <img width="200" src="https://pubs.rsc.org/image/article/2017/CP/c7cp02132a/c7cp02132a-p2_hi-res.gif">
-        <figcaption>Nobuyuki Matubayasi</figcaption>
+        <figcaption><font size="6">Nobuyuki Matubayasi</font></figcaption>
 </div>
 
 ---
