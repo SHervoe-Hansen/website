@@ -98,8 +98,6 @@ $$
 
 ---
 
----
-
 #### Setschenow coefficients
 <font size="5">
 $$
