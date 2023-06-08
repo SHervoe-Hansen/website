@@ -85,7 +85,7 @@ $$
 </font>
 
 {{< figure src="SetschenowTotal.png" >}}
-<font size="3"> [Hervø-Hansen. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
+<font size="3"> [Hervø-Hansen et al. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
 
 ---
 
@@ -100,16 +100,16 @@ $$
 </font>
 
 {{< figure src="SetschenowSpecies.png" >}}
-<font size="3"> [Hervø-Hansen. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
+<font size="3"> [Hervø-Hansen et al. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
 
 ---
 
 #### Interaction-component analysis
 $$
-\begin{aligned}    
-    \mu^{\mathrm{ex}} =& \int_{-\infty}^{\epsilon_{\mathrm{max}}} \varepsilon \rho_1(\varepsilon) \  \mathrm{d}\varepsilon + \int_{-\infty}^{\epsilon_{\mathrm{max}}} \mathcal{F}(\rho_0, \rho_1;\varepsilon) \  \mathrm{d}\varepsilon \\
-    &+ \int_{\epsilon_{\mathrm{max}}}^{\infty} \mathcal{F}(\rho_0, \rho_1;\varepsilon) \  \mathrm{d}\varepsilon
-\end{aligned}
+\[\begin{aligned}    
+    \mu^{\mathrm{ex}} =&amp; \int_{-\infty}^{\epsilon_{\mathrm{max}}} \varepsilon \rho_1(\varepsilon) \  \mathrm{d}\varepsilon + \int_{-\infty}^{\epsilon_{\mathrm{max}}} \mathcal{F}(\rho_0, \rho_1;\varepsilon) \  \mathrm{d}\varepsilon \\
+    &amp;+ \int_{\epsilon_{\mathrm{max}}}^{\infty} \mathcal{F}(\rho_0, \rho_1;\varepsilon) \  \mathrm{d}\varepsilon
+\end{aligned} \]
 $$
 
 ---
@@ -117,35 +117,35 @@ $$
 #### Interaction-component analysis: The interaction component
 
 {{< figure src="InteractionComponent.png" >}}
-<font size="3"> [Hervø-Hansen. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
+<font size="3"> [Hervø-Hansen et al. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
 
 ---
 
 #### Cation contribution: Binding
 
 {{< figure src="CationBinding.png" >}}
-<font size="3"> [Hervø-Hansen. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
+<font size="3"> [Hervø-Hansen et al. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
 
 ---
 
 #### Interaction-component analysis: The excluded-volume component
 
 {{< figure src="ExcludedVolumeComponent.png" >}}
-<font size="3"> [Hervø-Hansen. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
+<font size="3"> [Hervø-Hansen et al. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
 
 ---
 
 #### Interaction-component analysis: The excluded-volume ion component
 
 {{< figure src="ExcludedVolumeIonComponent.png" >}}
-<font size="3"> [Hervø-Hansen. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
+<font size="3"> [Hervø-Hansen et al. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
 
 ---
 
 #### Interaction-component analysis: The excluded-volume water component
 
 {{< figure src="ExcludedVolumeWaterComponent.png" >}}
-<font size="3"> [Hervø-Hansen. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
+<font size="3"> [Hervø-Hansen et al. Phys. Chem. Chem. Phys. 2022](https://doi.org/10.1039/D1CP04129K) </font>
 
 ---
 
