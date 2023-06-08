@@ -111,12 +111,11 @@ $$
 ---
 
 #### Interaction-component analysis
-$$
+
 \[\begin{aligned}    
     \mu^{\mathrm{ex}} =&amp; \int_{-\infty}^{\epsilon_{\mathrm{max}}} \varepsilon \rho_1(\varepsilon) \  \mathrm{d}\varepsilon + \int_{-\infty}^{\epsilon_{\mathrm{max}}} \mathcal{F}(\rho_0, \rho_1;\varepsilon) \  \mathrm{d}\varepsilon \\
     &amp;+ \int_{\epsilon_{\mathrm{max}}}^{\infty} \mathcal{F}(\rho_0, \rho_1;\varepsilon) \  \mathrm{d}\varepsilon
 \end{aligned} \]
-$$
 
 ---
 
