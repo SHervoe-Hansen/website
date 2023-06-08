@@ -74,6 +74,14 @@ $$
 
 ---
 
+#### Acknowledgements
+<section>
+    <img width="300" src="http://static.slid.es.s3.amazonaws.com/support/insert-video.png">
+    <img width="300" src="http://static.slid.es.s3.amazonaws.com/support/insert-video.png">
+</section>
+
+---
+
 #### Setschenow coefficients
 <font size="5">
 $$
