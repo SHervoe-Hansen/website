@@ -65,7 +65,7 @@ $$
 \Delta G_{\mathrm{sol}} = \sum_{\mathrm{species},\ i} \Delta G_{\mathrm{sol}, i}
 $$
 $$
-\Delta G_{\mathrm{sol},i}=\int \rho(\epsilon) \epsilon \ \mathrm{d}\epsilon - \int \mathcal{F}'(\epsilon) \ \mathrm{d}\epsilon
+\Delta G_{\mathrm{sol},i}=\int \rho(\epsilon) \epsilon \ \mathrm{d}\epsilon - \int \mathcal{F}(\epsilon) \ \mathrm{d}\epsilon
 $$
 </font>
 {{% /fragment %}}
@@ -137,7 +137,12 @@ $$
 
 ---
 
-#### 
+#### The chaotropic & kosmotropic properties of salt
+
+Visit my poster and let us disscuss:
+1. Do the properties exist?
+2. Are the properties important?
+3. By which methods are they measurable
 
 ---
 
