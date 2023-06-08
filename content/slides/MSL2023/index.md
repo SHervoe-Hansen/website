@@ -90,6 +90,12 @@ $$
 ---
 
 #### Anion-cation contrast
+
+<script src="plugin/math/math.js"></script>
+<script>
+  Reveal.initialize({ plugins: [ RevealMath.KaTeX ] });
+</script>
+
 <font size="5">
 $$
 \Delta G_{\mathrm{sol}} = \cancel{\Delta G_{\mathrm{self}}} + \Delta G_{\mathrm{anion}} + \Delta G_{\mathrm{cation}} + \Delta G_{\mathrm{water}}
