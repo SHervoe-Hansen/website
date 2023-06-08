@@ -85,15 +85,15 @@ $$
 
 <div class="image-wrapper">
         <img width="200" src="https://images.squarespace-cdn.com/content/v1/57a45f33c534a5832b558f0f/1511267602299-O2HBB5C9AF0TM8WDFNK1/mikael_lund_500x500.png?format=750w">
-        <figcaption>Mikael Lund</figcaption>
+        <figcaption><font size="5">Mikael Lund</font></figcaption>
 </div>
 <div class="image-wrapper">
         <img width="200" src="https://janheyda.files.wordpress.com/2014/02/heyda-photo.jpg">
-        <figcaption>Jan Heyda</figcaption>
+        <figcaption><font size="5">Jan Heyda</font></figcaption>
 </div>
 <div class="image-wrapper"> 
         <img width="200" src="https://pubs.rsc.org/image/article/2017/CP/c7cp02132a/c7cp02132a-p2_hi-res.gif">
-        <figcaption><font size="6">Nobuyuki Matubayasi</font></figcaption>
+        <figcaption><font size="5">Nobuyuki Matubayasi</font></figcaption>
 </div>
 
 ---
