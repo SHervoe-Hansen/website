@@ -105,17 +105,15 @@ $$
 
 ---
 
-#### Interaction-component analysis
+<section>
+  <h2>The Lorenz Equations</h2>
+  \[\begin{aligned}
+  \dot{x} &amp; = \sigma(y-x) \\
+  \dot{y} &amp; = \rho x - y - xz \\
+  \dot{z} &amp; = -\beta z + xy
+  \end{aligned} \]
+</section>
 
-<script src="plugin/math/math.js"></script>
-<script>
-  Reveal.initialize({ plugins: [ RevealMath.KaTeX ] });
-</script>
-
-\[\begin{aligned}    
-    \mu^{\mathrm{ex}} =&amp; \int_{-\infty}^{\epsilon_{\mathrm{max}}} \varepsilon \rho_1(\varepsilon) \  \mathrm{d}\varepsilon + \int_{-\infty}^{\epsilon_{\mathrm{max}}} \mathcal{F}(\rho_0, \rho_1;\varepsilon) \  \mathrm{d}\varepsilon \\
-    &amp;+ \int_{\epsilon_{\mathrm{max}}}^{\infty} \mathcal{F}(\rho_0, \rho_1;\varepsilon) \  \mathrm{d}\varepsilon
-\end{aligned} \]
 
 ---
 
