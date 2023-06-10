@@ -51,7 +51,7 @@ slides:
 
 #### Model solute: Caffeine
 
-{{< figure src="Caffeine.svg" height=50% >}}
+{{< figure src="Caffeine.svg" height=50% width=100% >}}
 
 ---
 
