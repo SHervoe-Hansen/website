@@ -49,6 +49,12 @@ slides:
 
 ---
 
+#### Model solute: Caffeine
+
+{{< figure src="Caffeine.svg" >}}
+
+---
+
 #### Thermodynamic framework for solvation thermodynamics
 <font size="5">
 $$
