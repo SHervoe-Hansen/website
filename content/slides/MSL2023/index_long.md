@@ -176,6 +176,5 @@ $$
 ---
 
 #### Conclusions
-1. Free-energy calculations reveal can be highly different in their perturbation mechanism.
-2. Effects not found at full coupling between the solute and solvent correlates with the Setschenow coefficient.
-
+1. Free-energy calculations reveal ions can be highly different in their perturbation mechanism.
+2. Effects not found at full coupling between the solute and solvent (like cavitation) correlates with the Setschenow coefficient.
