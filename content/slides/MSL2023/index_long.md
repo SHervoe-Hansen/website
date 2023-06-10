@@ -31,6 +31,11 @@ slides:
 {{< figure src="charge_asymmetry.png" >}}
 <font size="3"> [Mobley et al. J Phys Chem B. 2008](https://doi.org/10.1021/jp709958f) </font>
 
+---
+
+{{< slide background-image="Franz_hofmeister.jpg" >}}
+
+---
 
 #### Hofmeister series
 
@@ -132,6 +137,7 @@ $$
   \end{aligned} \]
 </section>
 
+
 ---
 
 #### Interaction-component analysis: The interaction component
@@ -172,5 +178,4 @@ $$
 #### Conclusions
 1. Free-energy calculations reveal can be highly different in their perturbation mechanism.
 2. Effects not found at full coupling between the solute and solvent correlates with the Setschenow coefficient.
-
 
