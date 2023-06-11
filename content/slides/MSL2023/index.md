@@ -49,8 +49,6 @@ slides:
 
 ---
 
-#### Model solute: Caffeine
-
 {{< figure src="Caffeine.png" >}}
 
 ---
