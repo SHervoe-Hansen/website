@@ -13,7 +13,7 @@ authors:
   - Mikael Lund
 
 # Author notes (optional)
-#author_notes:
+author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
   - ''
@@ -21,8 +21,8 @@ authors:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2022-01-04'
-doi: '10.1039/D1CP04129K'
+date: '2023-11-21'
+doi: '10.1021/acs.jpcb.3c01085'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-11-21'
