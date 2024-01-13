@@ -70,4 +70,4 @@ Stefan Hervø-Hansen is a JSPS postdoctoral researcher at Osaka University in th
 
 Having been awarded the JSPS fellowship for his proposal on the topic "Protein Solubility and Aggregation in Solution", Stefan now focuses on providing an atomistic description of solvation of macromolecules in solution. This step is one in many towards the ultimate goal for: "Combining Machine Learning and Physics-based Simulations for Smart Design of Materials"
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+[comment]: <> ({{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.)
