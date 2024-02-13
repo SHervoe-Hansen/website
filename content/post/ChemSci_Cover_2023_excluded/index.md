@@ -1,5 +1,5 @@
 ---
-title: Back Cover In The Chemical Science
+title: Back Cover In Chemical Science
 subtitle: Free-energy decomposition of salt effects on the solubilities of small molecules and the role of excluded-volume effects
 
 # Summary for listings and search engines
@@ -12,7 +12,7 @@ projects: []
 date: '2024-01-13'
 
 # Date updated
-lastmod: '2024-01-13'
+lastmod: '2024-02-13'
 
 # Is this an unpublished draft?
 draft: false
