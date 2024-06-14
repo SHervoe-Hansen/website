@@ -55,7 +55,7 @@ experience:
     description: >-
         Conduced research on the thermodynamic solvation of biomolecules in solution using insilico methods
         
-    Teaching conducted:
+        Teaching conducted:
         * Statistical Thermodynamics and Molecular Simulations
 
         * Python Programming for Chemists
