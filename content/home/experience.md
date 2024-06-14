@@ -50,7 +50,6 @@ experience:
         Research funded by the Japan Society for Promotion of Science (JSPS), with the host institution being Osaka University.
 
 
-        <br>
         Supervisor: Nobuyuki Matubayasi
 
   - title: PhD Student
