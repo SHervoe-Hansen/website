@@ -34,14 +34,19 @@ experience:
 
 
   - title: JSPS Postdoctoral Research Fellow
-    company: Japan Society for Promotion of Science
+    company: Osaka University
     company_url: 'https://www.jsps.go.jp/english/'
-    company_logo: JSPS
+    company_logo: OU
     location: Osaka, Japan
     date_start: '2022-04-13'
     date_end: '2024-04-13'
     description: >-
-        Conducted research on the usage of free energy calculation for rational modification of molecular matter. Conducted public speaking at high schools in Japan on topics such as research, life in academics, and usage of English. Research funded by the Japan Society for Promotion of Science (JSPS), with the host institution being Osaka University.
+        Conducted research on the usage of free energy calculation for rational modification of molecular matter.
+
+        Conducted public speaking at high schools in Japan on topics such as research, life in academics, and usage of English.
+
+        Research funded by the Japan Society for Promotion of Science (JSPS), with the host institution being Osaka University.
+
         <br>
         Supervisor: Nobuyuki Matubayasi
 
@@ -56,9 +61,11 @@ experience:
         Conduced research on the thermodynamic solvation of biomolecules in solution using insilico methods
         
         Teaching conducted:
+
         * Statistical Thermodynamics and Molecular Simulations
 
         * Python Programming for Chemists
+
         <br>  
         Supervisor: Mikael Lund
 
