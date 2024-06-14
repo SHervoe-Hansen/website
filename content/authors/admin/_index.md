@@ -6,7 +6,7 @@ title: Stefan Hervø-Hansen
 superuser: true
 
 # Role/position/tagline
-role: JSPS Postdoctoral Research Fellow
+role: Specially Appointed Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
