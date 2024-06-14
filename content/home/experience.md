@@ -34,7 +34,7 @@ experience:
 
 
   - title: JSPS Postdoctoral Research Fellow
-    company: JSPS (Osaka University)
+    company: Japan Society for Promotion of Science (Osaka University)
     company_url: 'https://www.jsps.go.jp/english/'
     company_logo: JSPS
     location: Osaka, Japan
