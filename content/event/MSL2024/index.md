@@ -16,22 +16,20 @@ summary: 'Presenting the poster: Advancing Chemical Potential Calculations of La
 abstract: >-
     Soft matter systems, such as polymers and globular proteins, undergo structural alterations when subjected to thermal, mechanical, or chemical stress.
     Under native conditions, proteins typically form compact, folded structures, but these can unfold and extend under stress.
-    Understanding the thermodynamics of these transformations requires knowledge of the excess chemical potential,{{< math >}}$\Delta \mu^{\mathrm{ex}}${{< /math >}}.
+    Understanding the thermodynamics of these transformations requires knowledge of the excess chemical potential, $\Delta \mu^{\mathrm{ex}}$.
     Masutani and Matsubayasi developed a methodology for calculating changes in the excess chemical potential due to alterations in the liquid composition of various molecular states.
     However, this method is a linear approximation and does not account for structural transitions induced by changes in solvent composition, which appears as higher-order terms and can be important when the solvent composition is changed much.
     In this work, we present a computational approach to determine the change in the excess chemical potential of a flexible solute molecule when the composition of a mixed-solvent system varies isothermally.
     One of the key results in the formulation of our new methdology is the derivation of the following exact inequality:
-    {{< math >}}
     $$
     \int P_B(\psi) \Delta\nu^{\mathrm{solv}}(\psi) \mathrm{d}\psi \le \Delta \mu^{\mathrm{ex}} \le \int P_A(\psi)\Delta \nu^{\mathrm{solv}}(\psi) \mathrm{d}\psi
     $$
-    {{< /math >}}
-    Here, {{< math >}}$P_A(\psi)${{< /math >}} and {{< math >}}$P_B(\psi)${{< /math >}} represent the probabilities of observing configuration {{< math >}}$\psi${{< /math >}} of the solute in solvent conditions {{< math >}}$A${{< /math >}} and {{< math >}}$B${{< /math >}}, respectively.
-    {{< math >}}$\Delta\nu^{\mathrm{solv}}(\psi)${{< /math >}} denotes the change in solvation free energy of the solute in a given configuration {{< math >}$\psi${{< /math >} from solvent condition {{< math >}$A${{< /math >} to {{< math >}$B${{< /math >}.
+    Here, $P_A(\psi) and $P_B(\psi)$ represent the probabilities of observing configuration $\psi$ of the solute in solvent conditions $A$ and $B$, respectively.
+    $\Delta\nu^{\mathrm{solv}}(\psi)$ denotes the change in solvation free energy of the solute in a given configuration $\psi$ from solvent condition $A$ to $B$.
     This inequality establishes upper and lower bounds for the change in solvation free energy, depending on the solvent conditions under which the structural ensemble was generated.
-    Our second key result is the formulation of an approach parallel to the Bennett Acceptance Ratio (BAR) method to obtain {{< math >}$\Delta \mu^{\mathrm{ex}}${{< /math >} from the statistics of {{< math >}$\Delta \nu^{\mathrm{solv}}(\psi)${{< /math >}.
-    The configurations of the solute in solvent conditions {{< math >}$A${{< /math >} and {{< math >}$B${{< /math >} can be prepared using any method that generates Boltzmann-distributed samples, with our choice being molecular dynamics (MD) simulations.
-    Similarly, the change in solvation free energy of a given structure ({{< math >}$\Delta\nu^{\mathrm{solv}}(\psi)${{< /math >}) can be obtained using methods such as RISM-type integral-equation theories, implicit-solvent models, or the method of energy representation, the latter being utilized in this work.
+    Our second key result is the formulation of an approach parallel to the Bennett Acceptance Ratio (BAR) method to obtain $\Delta \mu^{\mathrm{ex}}$ from the statistics of $\Delta \nu^{\mathrm{solv}}(\psi)$.
+    The configurations of the solute in solvent conditions $A$ and $B$ can be prepared using any method that generates Boltzmann-distributed samples, with our choice being molecular dynamics (MD) simulations.
+    Similarly, the change in solvation free energy of a given structure ($\Delta\nu^{\mathrm{solv}}(\psi)$) can be obtained using methods such as RISM-type integral-equation theories, implicit-solvent models, or the method of energy representation, the latter being utilized in this work.
     To test and apply our newly developed methdology, we invesgated the change in solvation of a PEG-36-mer in neat water, urea, and NaCl solutions.
 
 # Talk start and end times.
