@@ -24,7 +24,7 @@ abstract: >-
     $$
     \int P_B(\psi) \Delta\nu^{\mathrm{solv}}(\psi) \mathrm{d}\psi \le \Delta \mu^{\mathrm{ex}} \le \int P_A(\psi)\Delta \nu^{\mathrm{solv}}(\psi) \mathrm{d}\psi
     $$
-    Here, $P_A(\psi) and $P_B(\psi)$ represent the probabilities of observing configuration $\psi$ of the solute in solvent conditions $A$ and $B$, respectively.
+    Here, $P_A(\psi)$ and $P_B(\psi)$ represent the probabilities of observing configuration $\psi$ of the solute in solvent conditions $A$ and $B$, respectively.
     $\Delta\nu^{\mathrm{solv}}(\psi)$ denotes the change in solvation free energy of the solute in a given configuration $\psi$ from solvent condition $A$ to $B$.
     This inequality establishes upper and lower bounds for the change in solvation free energy, depending on the solvent conditions under which the structural ensemble was generated.
     Our second key result is the formulation of an approach parallel to the Bennett Acceptance Ratio (BAR) method to obtain $\Delta \mu^{\mathrm{ex}}$ from the statistics of $\Delta \nu^{\mathrm{solv}}(\psi)$.
