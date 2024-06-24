@@ -37,9 +37,9 @@ content:
   coordinates: 
     latitude: '34.804151180507205'
     longitude: '135.4554138557025'
-  directions: Enter building and take the stairs to Floor 2. Walk stright to the end of the corridor.
+  directions: Enter the building and take the stairs to Floor 2. Walk stright to the end of the corridor.
   office_hours:
-    - 'Monday-Friday 08:30 to 17:15'
+    - 'Monday-Friday 10:00 to 17:00'
 
 design:
   columns: '2'
