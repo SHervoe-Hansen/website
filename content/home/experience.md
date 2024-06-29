@@ -22,16 +22,33 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Postdoctoral Research Fellow
+  - title: Specially Appointed Researcher
     company: Osaka University
     company_url: 'https://www.osaka-u.ac.jp/en'
     company_logo: OU
     location: Osaka, Japan
-    date_start: '2022-04-13'
+    date_start: '2024-06-01'
     date_end: ''
     description: >-
-        Conducted research on the usage of free energy calculation for rational modification of molecular matter
+        Supervisor: Nobuyuki Matubayasi
+
+
+  - title: JSPS Postdoctoral Research Fellow
+    company: Japan Society for Promotion of Science (Osaka University)
+    company_url: 'https://www.jsps.go.jp/english/'
+    company_logo: JSPS
+    location: Osaka, Japan
+    date_start: '2022-04-13'
+    date_end: '2024-04-13'
+    description: >-
+        Conducted research on the usage of free energy calculation for rational modification of molecular matter.
         
+
+        Conducted public speaking at high schools in Japan on topics such as research, life in academics, and usage of English.
+
+
+        Research funded by the Japan Society for Promotion of Science (JSPS), with the host institution being Osaka University.
+
 
         Supervisor: Nobuyuki Matubayasi
 
