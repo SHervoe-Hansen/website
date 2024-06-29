@@ -49,7 +49,7 @@ featured: True
 
 image:
   caption: 'Image credit: **Stefan-Hervø-Hansen**'
-  focal_point: Right
+  focal_point: TopLeft
 
 url_code: ''
 url_pdf: ''
