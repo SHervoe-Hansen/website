@@ -48,7 +48,7 @@ tags: []
 featured: True
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: **Stefan-Hervø-Hansen**'
   focal_point: Right
 
 url_code: ''
