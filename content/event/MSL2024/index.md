@@ -52,7 +52,7 @@ image:
   focal_point: Right
 
 url_code: ''
-url_pdf: 'Poster_MSL2024.pdf'
+url_pdf: 'content/event/MSL2024/Poster_MSL2024.pdf'
 url_slides: ''
 url_video: ''
 
@@ -71,3 +71,6 @@ slides: ""
 projects = []:
 ---
 
+{{% callout note %}}
+Click on the **PDF** button above to view the poster.
+{{% /callout %}}
