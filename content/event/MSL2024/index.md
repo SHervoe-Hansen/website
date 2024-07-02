@@ -52,7 +52,7 @@ image:
   focal_point: Right
 
 url_code: ''
-url_pdf: 'content/event/MSL2024/Poster_MSL2024.pdf'
+url_pdf: 'https://github.com/SHervoe-Hansen/website/blob/main/content/event/MSL2024/Poster_MSL2024.pdf'
 url_slides: ''
 url_video: ''
 
