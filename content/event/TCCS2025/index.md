@@ -55,6 +55,6 @@ slides: ""
 projects = []:
 ---
 
-#{{% callout note %}}
-#Click on the **PDF** button above to view the poster.
-#{{% /callout %}}
+{{% callout note %}}
+Click on the **PDF** button above to view the poster.
+{{% /callout %}}
