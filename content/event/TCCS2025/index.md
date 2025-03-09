@@ -42,7 +42,7 @@ image:
   focal_point: Right
 
 url_code: ''
-url_pdf: ''https://github.com/SHervoe-Hansen/website/blob/main/content/event/TCCS2025/Poster_Okinawa2025_reduced.pdf' 
+url_pdf: 'https://github.com/SHervoe-Hansen/website/blob/main/content/event/TCCS2025/Poster_Okinawa2025_reduced.pdf' 
 url_slides: ''
 url_video: ''
 
