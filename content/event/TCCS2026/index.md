@@ -18,7 +18,7 @@ abstract: >-
     In this work, I present a residue-resolved analysis of insulin fibrils using constant pH molecular dynamics (CpHMD) to investigate how protonation equilibria couple to fibril stabiity and mechanical response.
     The simulations reveal non-uniform protonation behaviour within the fibril core, with specific glutamate residues titrating at substantially lower pH than terminal sites.
     These protonation changes correlate with pH-dependent changes in fibril flexibility, indicating transitions between distinct electrostatic stabilization regimes.
-    The results demonstrate how coupling between structure and protonaion governs fibril stability and highlighting why such behaviour cannot be captured using fixed-protonation molecular dynamics.
+    The results demonstrate how coupling between structure and protonation governs fibril stability and highlighting why such behaviour cannot be captured using fixed-protonation molecular dynamics.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
