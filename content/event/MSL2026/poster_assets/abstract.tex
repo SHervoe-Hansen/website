@@ -1,0 +1,153 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% This is a "template" model document for submission to the
+%% American Chemical Society (ACS).
+%%
+%% The guidance here contains information about how you may wish to
+%% modify it to match the requirements of various ACS journals. The
+%% ACS do *not* typeset accepted articles using LaTeX, so there is
+%% no specific class required.
+%%
+%% This template deliberately does *not* seek to reproduce
+%% the layout of the typeset journal: this is explicitly not
+%% required by the ACS for LaTeX submissions.
+%%
+%% Please report any issues with the template at
+%% https://github.com/josephwright/acs-template/issues
+%%
+%% Released under the Creative Commons 0 license
+%% https://creativecommons.org/public-domain/cc0/
+%% 
+%% Copyight (c) 2025 Joseph Wright
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Font setup - delete if you are using LuaLaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage{textgreek} % for α, β
+\DeclareUnicodeCharacter{2009}{\,}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Adjust the margins and allow for line spacing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\geometry{margin = 1cm}
+\usepackage{setspace}
+\onehalfspacing
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Reference support
+%%
+%% The recommended method for producing the reference section is
+%% to use biblatex. If you wish to use a classical BibTeX
+%% approach, this is easiest to achieve using the achemso package.
+%% In that case, you should remove the biblatex lines.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can adjust the printing of DOI, article title, etc. using
+% package options, e.g. "doi = true"; see the biblatex manual for
+% details of adjusting the number of authors printed, e.g.
+% "maxnames = 15" to print no more than 15 authors.
+\usepackage[style = chem-acs]{biblatex}
+\usepackage{xpatch}
+
+\xpatchbibdriver{article}
+  {\usebibmacro{journal+issuetitle}}
+  {\usebibmacro{title}\newunit\newblock
+   \usebibmacro{journal+issuetitle}}
+  {}
+  {\fail}
+
+\addbibresource{refs.bib}
+% If you are using classical BibTeX, remove the above lines and 
+% uncomment:
+%\usepackage{achemso}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Graphic inclusion and scheme and chart support
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage{float}
+\newfloat{scheme}{htbp}{los}
+\floatname{scheme}{Scheme}
+\floatname{chart}{Chart}
+\newfloat{graph}{htbp}{loh}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Common support packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{chemformula} % Formulas using \ch{}
+% or
+\usepackage[version = 4]{mhchem} % Formulas using \ce{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Many journals require that sections are unnumbered: this 
+%% is activated here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{secnumdepth}{-1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Place any additional macros here.  Please use \newcommand* where
+%% possible, and avoid layout-changing macros (which are not used
+%% when typesetting).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand*\mycommand[1]{\texttt{\emph{#1}}}
+
+%%% HELPER CODE FOR DEALING WITH EXTERNAL REFERENCES
+\usepackage{xr-hyper}
+\usepackage{hyperref}
+\makeatletter
+\newcommand*{\addFileDependency}[1]{
+  \typeout{(#1)}
+  \@addtofilelist{#1}
+  \IfFileExists{#1}{}{\typeout{No file #1.}}
+}
+\makeatother
+
+
+\newcommand*{\myexternaldocument}[1]{
+    \externaldocument{#1}
+    \addFileDependency{#1.tex}
+    \addFileDependency{#1.aux}
+}
+%%% END HELPER CODE
+
+% put all the external documents here!
+\myexternaldocument{supplementary}
+
+\newcommand{\angstrom}{\mbox{\normalfont\AA}}
+\newcommand{\pka}{p\textit{K}\textsubscript{a}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Author and title data:
+%% the authblk package is currently the simplest way to provide this
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{authblk}
+\author[1]{\underline{Stefan Hervø-Hansen}}
+\author[1]{Kento Kasahara}
+\author[1]{Nobuyuki Matubayasi}
+\affil[1]{Division of Chemical Engineering, Graduate School of Engineering Science, The University of Osaka, Toyonaka, Osaka 560-8531, Japan.}
+
+\title{pH-Dependent Free Energies of Insulin Fibrillation from Protonation Ensemble Statistics}
+% Use the \date command for email address(s) of corresponding authors
+\date{*Email: stefan@cheng.es.osaka-u.ac.jp}
+\pagestyle{empty}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+Insulin fibrillation is a pH-dependent process that renders protein therapeutics pharmacologically inactive and potentially cytotoxic.
+While experimental data confirms that aggregation is favored at low and near-neutral pH, the atomic-level link between microscopic protonation behavior and macroscopic thermodynamic stability remains elusive.
+In this work, we employ pH-Replica Exchange Molecular Dynamics (pH-REMD), combining molecular dynamics sampling of protein-solvent coordinates with Metropolis Monte Carlo sampling of discrete protonation states, to achieve insight into the correlation between protonation fluctuations and self-association.
+To bridge the gap between simulation and thermodynamics, we introduce PRIME (Protonation-state Reweighting in Multi-pH Ensembles), a minimal-variance free energy estimator equivalent to MBAR, yet utilizing naturally discrete, site-unresolved titration values, PRIME allows us to derive the pH-dependent free energy of fibrillation. By evaluating the differential proton affinity between the fibril and monomer, we demonstrate that fibril formation is characterized by a significant proton retention effect at weakly acidic conditions. This creates a free energy landscape where fibrillation becomes increasingly favorable as the assembly grows ($n$).
+However, because the transformation from site-unresolved titration to microscopic $pK_a$ values is non-unique, we investigated the site-unresolved titration curves to investigate the microscopic mechanism. We show that insulin’s titration is defined by strong electrostatic coupling, where specific Glu residues undergo complex, multi-step re-protonation events. Structural analysis reveals that maximum inter-monomer contact is not found in the fully deprotonated state, but is instead mediated by an alternating protonation network at weakly acidic conditions. This network relieves the electrostatic frustration that otherwise leads to massive charge repulsion at high pH. In general; our findings provide a general multiscale framework for understanding how collective ionization behavior drives protein self-assembly and thermodynamic stability.
+\end{abstract}
+\vspace{3cm}
+\centering
+\begin{minipage}[b][1.75in]{3.25in}
+  \sffamily
+  \frenchspacing
+  \includegraphics[width=1\linewidth]{Figures/TOC.pdf}
+\end{minipage}%
+
+\end{document}
