@@ -12,7 +12,7 @@ projects: []
 date: '2020-07-12'
 
 # Date updated
-lastmod: '2022-07-15'
+lastmod: '2026-06-30'
 
 # Is this an unpublished draft?
 draft: false
@@ -46,7 +46,7 @@ OpenMM uses the Extensible Markup Language (XML) format to store force field par
 ## Include all Fourier terms within a single PeriodicTorsionForce
 A dihedral angle is an angle between two intersecting planes. Within chemistry, it is the angle between two sets of three atoms having two atoms in common. Thus this energy is supposed to approximate the effect of bond order (like the restricted rotation around a double bond) and capture steric and electronic effects. A common way to express the difference in energy upon rotation of a dihedral angle is via a Fourier series. We can write the dihedral energy, {{< math >}}$E(\omega)${{< /math >}} as
 {{< math >}}$$
-E(\omega) = \sum_{n} \left(1+\cos\left(n \omega - \omega_0\right)\right).
+E(\omega) = \sum_{n} k_n \left(1+\cos\left(n \omega - \omega_0\right)\right).
 $${{< /math >}}
 Here $\omega$ is the dihedral angle formed by the four particles in question, $\omega_0$ is the phase offset, $n$ is the periodicity, and $k$ is the force constant. Note in the equation that the Fourier series is a _sum_ of terms, and this way of thinking may help a lot when writing the dihedral energy terms in the OpenMM force field files.
 
